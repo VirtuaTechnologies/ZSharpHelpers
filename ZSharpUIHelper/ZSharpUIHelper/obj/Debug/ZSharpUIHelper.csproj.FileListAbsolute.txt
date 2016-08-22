@@ -1,0 +1,10 @@
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.pdb

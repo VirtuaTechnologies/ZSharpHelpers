@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<A2KApp>
+    <Settings name="backgroundworker">Example text. </Settings>
+    <Settings name="threadpool">More text.</Settings>
+    <Settings></Settings>
+    <Settings></Settings>
+</A2KApp>

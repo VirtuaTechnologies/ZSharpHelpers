@@ -1,0 +1,146 @@
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.xml
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.xml
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.xml
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.xml
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.xml
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.xml
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\db.s3db
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\CodeEngine.Framework.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DataSourceBuilder.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\System.Data.SQLite.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\System.Data.SQLite.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\db.s3db
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\CodeEngine.Framework.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DataSourceBuilder.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\System.Data.SQLite.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\System.Data.SQLite.xml
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\db.s3db
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\CodeEngine.Framework.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DataSourceBuilder.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\db.s3db
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\CodeEngine.Framework.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DataSourceBuilder.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\db.s3db
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Topology.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Serialization.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb

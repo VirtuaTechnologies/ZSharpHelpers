@@ -1,0 +1,20 @@
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\IndexedDictionary.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\IndexedDictionary.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb

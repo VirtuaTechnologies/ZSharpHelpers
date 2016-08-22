@@ -1,0 +1,47 @@
+F:\Copy\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+F:\Copy\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+F:\Copy\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+F:\Copy\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+F:\Copy\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb

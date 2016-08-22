@@ -1,0 +1,19 @@
+ID,varName,12ddatatype,c3ddatatype,actualname,targetstring
+1,this_id,uid,int,this id,uid     this id 
+2,us_pit_index,integer,int,us pit index,integer us pit index 
+3,ds_pit_index,integer,int,ds pit index,integer ds pit index 
+4,number_of_us_trunks,integer,int,number of us trunks,integer number of us trunks 
+5,number_of_us_incoming,integer,int,number of us incoming,integer number of us incoming 
+6,us_incoming,uid,int,us incoming,uid     us incoming 
+7,us_incoming_pit_index,integer,int,us incoming pit index,integer us incoming pit index 
+8,number_of_us_outgoing,integer,int,number of us outgoing,integer number of us outgoing 
+9,number_of_ds_trunks,integer,int,number of ds trunks,integer number of ds trunks 
+10,ds_trunk,uid,int,ds trunk,uid     ds trunk 
+11,ds_trunk_pit_index,integer,int,ds trunk pit index,integer ds trunk pit index 
+12,number_of_ds_incoming,integer,int,number of ds incoming,integer number of ds incoming 
+13,ds_incoming,uid,int,ds incoming,uid     ds incoming 
+14,ds_incoming_pit_index,integer,int,ds incoming pit index,integer ds incoming pit index 
+15,ds_incoming2,uid,int,ds incoming2,uid     ds incoming2 
+16,ds_incoming_pit_index2,integer,int,ds incoming pit index2,integer ds incoming pit index2 
+17,number_of_ds_outgoing,integer,int,number of ds outgoing,integer number of ds outgoing 
+18,name,string,string,name,name      

@@ -1,0 +1,15 @@
+G:\Dropbox\TestProjects\DotNet\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.exe.config
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.exe.config
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.exe
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.pdb
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\MainWindow.g.cs
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\App.g.cs
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers_MarkupCompile.cache
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers_MarkupCompile.lref
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\MainWindow.baml
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.g.resources
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.Properties.Resources.resources
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.csproj.GenerateResource.Cache
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.exe
+G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.pdb

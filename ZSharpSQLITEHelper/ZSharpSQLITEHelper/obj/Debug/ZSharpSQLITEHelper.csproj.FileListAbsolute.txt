@@ -1,0 +1,17 @@
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\System.Data.SQLite.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\System.Data.SQLite.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.pdb

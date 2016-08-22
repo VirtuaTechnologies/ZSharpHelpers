@@ -1,0 +1,12 @@
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Release\ZSharpXMLHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Release\ZSharpXMLHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Release\IndexedDictionary.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Release\ZSharpXMLHelper.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Release\ZSharpXMLHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Release\ZSharpXMLHelper.pdb
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Release\ZSharpXMLHelper.dll
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Release\ZSharpXMLHelper.pdb
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\bin\Release\IndexedDictionary.dll
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Release\ZSharpXMLHelper.csprojResolveAssemblyReference.cache
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Release\ZSharpXMLHelper.dll
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Release\ZSharpXMLHelper.pdb

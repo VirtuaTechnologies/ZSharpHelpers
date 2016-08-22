@@ -1,0 +1,7 @@
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\bin\Debug\PDFConverter.dll
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\bin\Debug\PDFConverter.pdb
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFConverter.csprojResolveAssemblyReference.cache
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\Interop.PDFConverter.dll
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFConverter.csproj.ResolveComReference.cache
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFConverter.dll
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFConverter.pdb

@@ -1,0 +1,12 @@
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Release\ReadME.txt
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Release\ZSharpGeneralHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Release\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Release\ReadME.txt
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Release\ZSharpGeneralHelper.dll
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Release\ZSharpGeneralHelper.pdb
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.dll
+G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.pdb

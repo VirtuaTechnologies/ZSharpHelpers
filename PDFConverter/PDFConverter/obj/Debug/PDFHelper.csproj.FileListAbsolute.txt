@@ -1,0 +1,11 @@
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\Interop.PDFConverter.dll
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFHelper.csproj.ResolveComReference.cache
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\bin\Debug\PDFHelper.dll
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\bin\Debug\PDFHelper.pdb
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFHelper.dll
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFHelper.pdb
+H:\Copy\Projects\MS.NET\PDFConverter\PDFConverter\obj\Debug\PDFHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\PDFConverter\PDFConverter\obj\Debug\PDFHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\PDFConverter\PDFConverter\obj\Debug\PDFHelper.csproj.ResolveComReference.cache
+G:\GitHub\ZSharpHelpers\PDFConverter\PDFConverter\obj\Debug\PDFHelper.dll
+G:\GitHub\ZSharpHelpers\PDFConverter\PDFConverter\obj\Debug\PDFHelper.pdb

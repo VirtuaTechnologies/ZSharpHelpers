@@ -1,0 +1,70 @@
+\\A2K_NSW_L012\Vault 2016\Extensions\DataStandard\Vault\addinVault\A2KLibs\ZSharpVault16lib.dll
+\\A2K_NSW_L012\Vault 2016\Extensions\DataStandard\Vault\addinVault\A2KLibs\ZSharpVault16lib.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpVault16lib.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpVault16lib.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.Explorer.Extensibility.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.Explorer.ExtensibilityTools.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.Extensibility.Framework.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.JobProcessor.Extensibility.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.WebServices.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.Forms.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.Vault.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.Explorer.Extensibility.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.Explorer.ExtensibilityTools.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.Extensibility.Framework.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.JobProcessor.Extensibility.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.Connectivity.WebServices.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.Forms.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.Vault.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Autodesk.DataManagement.Client.Framework.Vault.Forms.xml
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.dll
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.pdb
+E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.csprojResolveAssemblyReference.cache
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpVault16lib.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpVault16lib.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Microsoft.Web.Services3.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\System.Windows.Interactivity.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\de\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\en\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\es\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\it\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.pdb
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\VaultAPI.Data.dll
+G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.csprojResolveAssemblyReference.cache
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpVault16lib.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpVault16lib.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\Microsoft.Web.Services3.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\System.Windows.Interactivity.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\VaultAPI.Data.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.dll
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.pdb
+D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.dll
+G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.pdb
