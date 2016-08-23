@@ -10,8 +10,6 @@ using Autodesk.Connectivity.Explorer.Extensibility;
 using VDF = Autodesk.DataManagement.Client.Framework;
 using Autodesk.DataManagement.Client.Framework.Vault.Currency.Entities;
 using System.Windows;
-using System.Linq;
-using logit = ZSharpLogger.Log;
 using ZSharpVault16lib.Global;
 
 namespace ZSharpVault16lib

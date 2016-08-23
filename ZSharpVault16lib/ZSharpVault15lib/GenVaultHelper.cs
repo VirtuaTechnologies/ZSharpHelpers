@@ -10,10 +10,11 @@ using Autodesk.Connectivity.Explorer.Extensibility;
 using VDF = Autodesk.DataManagement.Client.Framework;
 using Autodesk.DataManagement.Client.Framework.Vault.Currency.Entities;
 using System.Windows;
-using System.Linq;
-using logit = ZSharpLogger.Log;
 using System.Reflection;
 using System.IO;
+using ZSharpQLogger;
+using GV = ZSharpVault16lib.Global.variables;
+using ZSharpXMLHelper;
 
 namespace ZSharpVault16lib
 {
@@ -38,6 +39,46 @@ namespace ZSharpVault16lib
                 string path = Uri.UnescapeDataString(uri.Path);
                 return Path.GetDirectoryName(path);
             }
+        }
+
+        public static void getSettings()
+        {
+            if (System.IO.File.Exists(Global.variables.settingsFile))
+            {
+                GV.logSwitch = bool.Parse(xmlParser.getXMLValue(Global.variables.settingsFile, "Settings", "name", "logSwitch"));
+                GV.logFile = xmlParser.getXMLValue(Global.variables.settingsFile, "Settings", "name", "logFile");
+                GV.errorBoxSwitch = bool.Parse(xmlParser.getXMLValue(Global.variables.settingsFile, "Settings", "name", "errorBoxSwitch"));
+                GV.debug = bool.Parse(xmlParser.getXMLValue(Global.variables.settingsFile, "Settings", "name", "debug"));
+            }
+        }
+
+        public static void setLogFiles()
+        {
+            if (System.IO.File.Exists(GV.logFile))
+            {
+                System.IO.File.Delete(GV.logFile);
+                writeLog("Deleting Log");
+            }
+            System.IO.File.Create(GV.logFile).Close();
+            writeLog("Creating Log");
+        }
+
+        public static logSetting logSet;
+        public static void writeLog(string mess)
+        {
+            if (GV.logSwitch)
+            {
+                logSet = new logSetting(GV.appName, GV.devDetails, "", GV.logFile, true);
+                LogIT.write(logSet, mess);
+            }
+        }
+
+        public static void getPath()
+        {
+            GV.appPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            GV.dataPath = GV.appPath + "\\Data\\";
+            GV.settingsFile = GV.appPath + @"\Data\VCRestSettings.xml";
+            //GV.logFile = GV.appPath + @"\Data\CMWCF.log";
         }
 
         public static void LibNotes()

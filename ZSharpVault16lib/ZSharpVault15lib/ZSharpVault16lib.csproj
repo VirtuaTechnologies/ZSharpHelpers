@@ -97,6 +97,12 @@
       <HintPath>..\..\VaultAPI.Data\bin\Debug\Signed\VaultAPI.Data.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
+    <Reference Include="ZSharpQLogger">
+      <HintPath>..\..\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpQLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="ZSharpXMLHelper">
+      <HintPath>..\..\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileHelper.cs" />
@@ -114,10 +120,7 @@
     <None Include="ZShareVault15.snk" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ZSharpLogger\ZSharpLogger\ZSharpLogger.csproj">
-      <Project>{75db75c3-0ebd-4f30-875d-0f21862adfb9}</Project>
-      <Name>ZSharpLogger</Name>
-    </ProjectReference>
+    <Content Include="Data\ZSharpVault16libSettings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

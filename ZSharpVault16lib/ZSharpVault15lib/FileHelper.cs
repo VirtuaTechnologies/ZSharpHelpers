@@ -11,7 +11,7 @@ using VDF = Autodesk.DataManagement.Client.Framework;
 using Autodesk.DataManagement.Client.Framework.Vault.Currency.Entities;
 using System.Windows;
 using System.Linq;
-using logit = ZSharpLogger.Log;
+using ZGHCC = ZSharpVault16lib.GenVaultHelper;
 using ZSharpVault16lib.Global;
 
 
@@ -236,7 +236,7 @@ namespace ZSharpVault16lib
                     string keyItem = propDefs.Keys.ToArray()[item.PropDefId - 1];
                     string val = item.Val.ToString();
                     dict.Add(keyItem, val);
-                    logit.logger("==LIB ==" + propDefs.Keys.ToArray()[item.PropDefId - 1] + " | " + item.PropDefId.ToString() + " | " + item.Val.ToString());
+                    ZGHCC.writeLog("==LIB ==" + propDefs.Keys.ToArray()[item.PropDefId - 1] + " | " + item.PropDefId.ToString() + " | " + item.Val.ToString());
                     if (keyItem == key)
                     {
                         resultVal = val;
@@ -258,7 +258,7 @@ namespace ZSharpVault16lib
             Dictionary<string, string> dict = new Dictionary<string, string>();
             try
             {
-                logit.logger("DesignVisAttmtStatus: " + selectedFile.DesignVisAttmtStatus.ToString());
+                ZGHCC.writeLog("DesignVisAttmtStatus: " + selectedFile.DesignVisAttmtStatus.ToString());
                 VDF.Vault.Currency.Entities.FileIteration fileInteration = new FileIteration(connection, selectedFile);
                 var propDefs = connection.PropertyManager.GetPropertyDefinitions(VDF.Vault.Currency.Entities.EntityClassIds.Files, null, VDF.Vault.Currency.Properties.PropertyDefinitionFilter.IncludeAll);
                 foreach (var key in propDefs.Keys)
@@ -266,13 +266,13 @@ namespace ZSharpVault16lib
                     // Print the Name from the Definition and the Value from the Property
                     object propValue = connection.PropertyManager.GetPropertyValue(fileInteration, propDefs[key], null);
                     dict.Add(propDefs[key].DisplayName.ToString(), propValue == null ? "" : propValue.ToString());
-                    logit.logger(string.Format("== LIB 1 DICT == >>   '{0}' = '{1}'", propDefs[key].DisplayName.ToString(), propValue == null ? "" : propValue.ToString()));
+                    ZGHCC.writeLog(string.Format("== LIB 1 DICT == >>   '{0}' = '{1}'", propDefs[key].DisplayName.ToString(), propValue == null ? "" : propValue.ToString()));
                 }
                 dict.Add("Id", fileInteration.EntityMasterId.ToString());
             }
             catch (SystemException ex)
             {
-                logit.logger(ex.ToString());
+                ZGHCC.writeLog(ex.ToString());
             }
             return dict;
         }
@@ -300,13 +300,13 @@ namespace ZSharpVault16lib
                     char last = resultVal[resultVal.Length - 1];
                     if(last.Equals("-"))
                         resultVal = resultVal.Remove(resultVal.Length - 1);
-                    logit.logger("FileIDS CSV: " + resultVal);
+                    ZGHCC.writeLog("FileIDS CSV: " + resultVal);
                     statusMess = "Success";
                 }
             }
             catch (SystemException ex)
             {
-                logit.logger("\nError: " + ex.ToString());
+                ZGHCC.writeLog("\nError: " + ex.ToString());
             }
             return resultVal;
         }
@@ -418,6 +418,27 @@ namespace ZSharpVault16lib
             return fileColls.ToList<Autodesk.Connectivity.WebServices.File>();
         }
 
+        public static void uploadFiletoVaultFolder(VDF.Vault.Currency.Connections.Connection connection, string folderID, string comment, string fileName, byte[] fileBytes)
+        {
+            try
+            {
+                VDF.Vault.Currency.Entities.Folder fld = FolderHelper.getFolderusingID(connection, folderID);
+                List<FileAssocParam> fileAssocParamList = new List<FileAssocParam>();
+                FileAssocParam fileAssocArray = new FileAssocParam();
+                FileAssocParam[] paramArray = fileAssocParamList.ToArray();
+                BOM _bom = new BOM();
+                string destinationFile = System.IO.Path.GetTempPath() + fileName;
+                System.IO.File.WriteAllBytes(destinationFile, fileBytes);
+                VDF.Currency.FilePathAbsolute FPA = new VDF.Currency.FilePathAbsolute(destinationFile);
+                connection.FileManager.AddFile(fld, comment, paramArray, _bom, FileClassification.None, false, FPA);
+            }
+            catch (SystemException ex)
+            {
+                statusMess = null;
+                Debug.Write("\nError: " + ex.ToString());
+                statusMess = "Error: \n" + ex.ToString();
+            }
+        }
         /*
         public static Dictionary<string, string> getFileAllVals(VDF.Vault.Currency.Connections.Connection connection, File selectedFile)
         {

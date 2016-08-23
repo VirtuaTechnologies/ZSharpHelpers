@@ -15,6 +15,22 @@ namespace ZSharpVault16lib.Global
     {
         public static VDF.Vault.Currency.Connections.Connection m_connection;
 
+        public static string appName = "ACAD Content Manager";
+        public static string devDetails = "Raghulan Gowthaman";
+
+        #region Switch
+        public static bool logSwitch;
+        public static bool debug = true;
+        public static bool errorBoxSwitch = false;
+        #endregion
+
+        #region - Path
+        public static string dataPath;
+        public static string appPath;
+        public static string settingsFile;
+        public static string logFile;
+        #endregion
+
         #region Create Local Fodlers
         public static Folder selectedFodler;
         public static VDF.Vault.Currency.Entities.Folder selectedFodlerEntity;
