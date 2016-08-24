@@ -44,3 +44,4 @@ G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharp
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
