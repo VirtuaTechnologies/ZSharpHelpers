@@ -15,7 +15,7 @@ using System.IO;
 using OSGeo.FDO.Commands.Schema;
 using OSGeo.FDO.Commands.Feature;
 using System.Collections;
-using ZSharpLogger;
+using ZSharpQLogger;
 using ZSharpFDOHelper.FDOGen;
 using System.Diagnostics;
 using OSGeo.FDO.Expression;
@@ -358,7 +358,7 @@ namespace ZSharpFDOHelper
         public static void SDFRead(string SDFFile, string schemaName, string filter_value)
         {
             //this is to read value of a property
-            ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Read Data module running...", true);
+            //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Read Data module running...", true);
             //ed.WriteMessage("\nRead Data module running...");
             try
             {
@@ -383,7 +383,7 @@ namespace ZSharpFDOHelper
                         {
                             //get class definition
                             ClassDefinition cdef = reader.GetClassDefinition();
-                            ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Class definition: " + cdef.Name, true);
+                            //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Class definition: " + cdef.Name, true);
                             //ed.WriteMessage("\nClass definition: " + cdef.Name);
 
                             //string array to print each row
@@ -396,7 +396,7 @@ namespace ZSharpFDOHelper
                                 {
                                     var p = (DataPropertyDefinition)def;
                                     row.Add(def.Name);
-                                    ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Property Header Name: " + def.Name, true);
+                                    //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Property Header Name: " + def.Name, true);
                                     //ed.WriteMessage("\nProperty Header Name: " + def.Name);
                                 }
                                 // Print the header row (property names)
@@ -419,7 +419,7 @@ namespace ZSharpFDOHelper
                                             var p = (DataPropertyDefinition)def;
                                             string value = "";
                                             value = FDODataHelper.expressionToString(FDODataHelper.ParseByDataType(reader.ToString(), p.DataType));
-                                            ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Value: " + value, true);
+                                            //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Value: " + value, true);
                                             //depending upon the data type, use the approriate "GET"
                                             //method on the reader
                                             switch (p.DataType)
@@ -438,14 +438,14 @@ namespace ZSharpFDOHelper
                                         }
                                         catch (System.Exception ex)
                                         {
-                                            ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Exception: " + ex, true);
+                                            //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Exception: " + ex, true);
                                             //System.Windows.MessageBox.Show(ex.Message);
                                         }
                                     }
                                 }
                                 catch (System.Exception ex)
                                 {
-                                    ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Exception: " + ex, true);
+                                    //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Exception: " + ex, true);
                                     //System.Windows.MessageBox.Show(ex.Message);
                                 }
 
@@ -463,7 +463,7 @@ namespace ZSharpFDOHelper
             }
             catch (OSGeo.FDO.Common.Exception ex)
             {
-                ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Exception: " + ex, true);
+                //ZSharpLogger.DebugHelper.printVSConsole("SDFH", "Exception: " + ex, true);
                 //ed.WriteMessage("\nException:" + ge.Message);
                 //bool ok = ge.Message.Contains("read-only");
 

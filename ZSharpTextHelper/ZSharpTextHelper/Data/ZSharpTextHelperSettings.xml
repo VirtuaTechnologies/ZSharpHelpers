@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Developed by A2KTechnologies - Raghulan Gowthaman - Ver 3.20.0 www.raghulangowthaman.com-->
+<App>
+  <Settings name="logSwitch">true</Settings>
+  <Settings name="errorBoxSwitch">true</Settings>
+  <Settings name="logFile">C:\ZApps\ZHelper\Log\ZSharpVault16lib.log</Settings>
+  <Settings name="debug">true</Settings>
+  <Settings name="nameSeperator">-</Settings>
+</App>

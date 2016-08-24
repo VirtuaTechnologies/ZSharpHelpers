@@ -86,3 +86,4 @@ G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ru\System.Wi
 G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
 G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\obj\Debug\ZSharpVault16lib.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpVault16lib\ZSharpVault15lib\bin\Debug\ZSharpLogger.dll

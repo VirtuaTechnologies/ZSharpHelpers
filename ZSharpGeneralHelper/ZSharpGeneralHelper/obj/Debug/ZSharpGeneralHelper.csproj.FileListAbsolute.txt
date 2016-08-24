@@ -42,6 +42,5 @@ D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpGeneralH
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
-G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb

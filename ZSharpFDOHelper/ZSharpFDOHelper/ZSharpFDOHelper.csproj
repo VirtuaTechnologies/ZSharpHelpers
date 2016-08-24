@@ -104,13 +104,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ZSharpLogger\ZSharpLogger\ZSharpLogger.csproj">
-      <Project>{75db75c3-0ebd-4f30-875d-0f21862adfb9}</Project>
-      <Name>ZSharpLogger</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\..\ZSharpQLogger\ZSharpQLogger\ZSharpQLogger.csproj">
+      <Project>{43d8d449-509c-429d-ac0f-53a11ce89cbb}</Project>
+      <Name>ZSharpQLogger</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

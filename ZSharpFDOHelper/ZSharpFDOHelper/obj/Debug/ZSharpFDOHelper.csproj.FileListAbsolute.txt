@@ -72,5 +72,16 @@ E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-S
 E:\GoogleDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.pdb
 F:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\IndexedDictionary.dll
 G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Data\Settings.xml
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\DevZone\Log\Log.txt
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Help\ReadME.txt
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Help\ReleaseNotes.txt
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Dev Notes.txt
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpFDOHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpFDOHelper.pdb
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpQLogger.dll
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpLogger.dll
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpXMLHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpQLogger.pdb
 G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.pdb

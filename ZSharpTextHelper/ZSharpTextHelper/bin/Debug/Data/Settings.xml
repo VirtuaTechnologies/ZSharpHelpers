@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Developed by Zcodia Technologies - Raghulan Gowthaman - Ver 1.00.0 www.raghulangowthaman.com-->
+<ZApp> <!-- Add as many settings needed-->
+  <Settings name="FileStore">C:\A2KApps\FileStore</Settings>
+  <Settings name="logFile">C:\A2KApps\Transmittal\Data\log.txt</Settings>
+  <Settings name="dbstring">QTJLX05TV19MMDEyXEFVVE9ERVNLVkFVTFQsYTJrZGIsc2Esbm9raWE3NzEw</Settings>
+  <Settings name="logSwitch">true</Settings>
+</ZApp>

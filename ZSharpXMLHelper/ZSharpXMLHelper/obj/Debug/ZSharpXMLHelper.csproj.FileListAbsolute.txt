@@ -15,6 +15,5 @@ G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelpe
 G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
-G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb

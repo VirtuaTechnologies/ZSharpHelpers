@@ -6,14 +6,25 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using GV = ZSharpTextHelper.Global.variable;
-using logit = ZSharpLogger.Log;
+using ZSharpQLogger;
 using System.Windows.Forms;
+using ZSharpXMLHelper;
 
 namespace ZSharpTextHelper
 {
     public class GenTextHelper
     {
-        
+        public static void getSettings()
+        {
+            if (System.IO.File.Exists(GV.settingsFile))
+            {
+                GV.logSwitch = bool.Parse(xmlParser.getXMLValue(GV.settingsFile, "Settings", "name", "logSwitch"));
+                GV.logFile = xmlParser.getXMLValue(GV.settingsFile, "Settings", "name", "logFile");
+                GV.errorBoxSwitch = bool.Parse(xmlParser.getXMLValue(GV.settingsFile, "Settings", "name", "errorBoxSwitch"));
+                GV.debug = bool.Parse(xmlParser.getXMLValue(GV.settingsFile, "Settings", "name", "debug"));
+            }
+        }
+
         public static string Split_csv_get_specific1(string csv_value, int part)
         {
             part -= 1;
@@ -86,22 +97,24 @@ namespace ZSharpTextHelper
             return sb.ToString();
         }
 
-        public static void setLogger()
+        public static void setLogFiles()
         {
-            try
+            if (System.IO.File.Exists(GV.logFile))
             {
-                //delete existing log file.
-                if (File.Exists(GV.logFile))
-                    File.Delete(GV.logFile);
-                //setup log settings
-                ZSharpLogger.logSetting logSettings = new ZSharpLogger.logSetting(GV.appName, null, null, GV.logFile, GV.logSwitch);
-
-                logit.log_header(logSettings);
+                System.IO.File.Delete(GV.logFile);
+                writeLog("Deleting Log");
             }
-            catch (SystemException ex)
+            System.IO.File.Create(GV.logFile).Close();
+            writeLog("Creating Log");
+        }
+
+        public static logSetting logSet;
+        public static void writeLog(string mess)
+        {
+            if (GV.logSwitch)
             {
-                
-                MessageBox.Show(ex.ToString());
+                logSet = new logSetting(GV.appName, GV.devDetails, "", GV.logFile, true);
+                LogIT.write(logSet, mess);
             }
         }
 
@@ -169,5 +182,14 @@ namespace ZSharpTextHelper
                 return Path.GetDirectoryName(path);
             }
         }
+
+        public static void getPath()
+        {
+            GV.appPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            GV.dataPath = GV.appPath + "\\Data\\";
+            GV.settingsFile = GV.appPath + @"\Data\VCRestSettings.xml";
+            //GV.logFile = GV.appPath + @"\Data\CMWCF.log";
+        }
+
     }
 }

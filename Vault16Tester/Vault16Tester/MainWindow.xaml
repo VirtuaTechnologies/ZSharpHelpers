@@ -1,0 +1,213 @@
+﻿<Controls:MetroWindow x:Class="Vault16Tester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Vault 2016 Tester" Height="770.946" Width="1200" MinWidth="1200">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Server" Foreground="Black" />
+                <TextBox Name="tBox_SERVER" Text="192.168.1.128" Foreground="Gray" Width="170" />
+                <Label Content="Vault" Foreground="Black"/>
+                <TextBox Name="tBox_vaultDS" Text="VaultDS" Foreground="Gray" Width="170" />
+                <Label Content="User Name" Foreground="Black"/>
+                <TextBox Name="tBox_uName" Text="Administrator" Foreground="Gray" Width="170" />
+                <Label Content="Password" Foreground="Black"/>
+                <TextBox Name="tBox_password" Text="" Foreground="Gray" Width="170" />
+
+                <Button Name="btn_Login" Content="Login" Click="btn_login_Click" />
+            </StackPanel>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.ComboBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Yellow.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseDark.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style x:Key="TreeViewItemStyle" TargetType="TreeViewItem">
+                <Setter Property="IsExpanded" Value="True" />
+                <Setter Property="IsSelected" Value="{Binding IsInitiallySelected, Mode=OneTime}" />
+                <Setter Property="KeyboardNavigation.AcceptsReturn" Value="True" />
+                <Setter Property="Foreground" Value="{Binding folderExists, Mode=OneTime}" />
+            </Style>
+            <HierarchicalDataTemplate x:Key="CheckBoxItemTemplate" ItemsSource="{Binding Children, Mode=OneTime}">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Focusable="False" IsChecked="{Binding IsChecked}" VerticalAlignment="Center"  BorderBrush="{DynamicResource AccentColorBrush}" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" Background="#FF858383" />
+                    <ContentPresenter Content="{Binding Name, Mode=OneTime}" Margin="2,0" ToolTip="{Binding folderPath, Mode=OneTime}"/>
+                </StackPanel>
+            </HierarchicalDataTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="47"/>
+        </Grid.RowDefinitions>
+
+
+        <!--<Label Content="Server" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="25" Width="79"/>
+        <TextBox x:Name="tBox_server" HorizontalAlignment="Left" Height="23" Margin="94,10,0,0" TextWrapping="Wrap" Text="A2K_NSW_L012" VerticalAlignment="Top" Width="172"/>
+        <Label Content="Vault" HorizontalAlignment="Left" Margin="276,10,0,0" VerticalAlignment="Top" Height="25" Width="79"/>
+        <TextBox x:Name="tBox_vault" HorizontalAlignment="Left" Height="23" Margin="360,10,0,0" TextWrapping="Wrap" Text="VaultDS" VerticalAlignment="Top" Width="172"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Height="25" Width="79"/>
+        <TextBox x:Name="tBox_user" HorizontalAlignment="Left" Height="23" Margin="94,38,0,0" TextWrapping="Wrap" Text="Administrator" VerticalAlignment="Top" Width="172"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="276,38,0,0" VerticalAlignment="Top" Height="25" Width="79"/>
+        <TextBox x:Name="tBox_pass" HorizontalAlignment="Left" Height="23" Margin="360,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+        <Label x:Name="lbl_login_Status" Content="Not Connected" HorizontalAlignment="Left" Margin="646,0,0,0" VerticalAlignment="Top" Width="207" Height="26" Grid.Row="1"/>
+        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Left" Margin="551,13,0,0" VerticalAlignment="Top" Width="75" Click="btn_login_Click" Height="22"/>-->
+        <TabControl Margin="0,10,10,12" Grid.Row="1" Grid.RowSpan="2">
+            <TabItem Header="Folder" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="105">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="79*"/>
+                        <ColumnDefinition Width="68*"/>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="VAULT FOLDERS" HorizontalAlignment="Left" Margin="10,10,0,10" Width="310">
+                        <Grid>
+                            <TreeView x:Name="tView_folders" HorizontalAlignment="Left" Margin="10,40,0,10" Width="279"
+                  ItemContainerStyle="{StaticResource TreeViewItemStyle}"
+                  ItemTemplate="{StaticResource CheckBoxItemTemplate}" />
+                            <Button x:Name="btn_fetchFolders" Content="Get Folders" HorizontalAlignment="Left" Margin="201,10,0,0" VerticalAlignment="Top" Width="87" Click="btn_fetchFolders_Click"/>
+                        </Grid>
+
+                    </GroupBox>
+                    <ListView x:Name="lView" Margin="325,10,19.585,10" SelectionMode="Single" MouseDoubleClick="lView_MouseDoubleClick" >
+
+
+                    </ListView>
+                    <TextBox x:Name="tBox_FolderID" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="FOLDERID"/>
+                    <Button x:Name="btn_getFolderDetails" Content="Get fodler details" Grid.Column="1" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="118" Click="btn_getFolderDetails_Click"/>
+                    <TextBox x:Name="tBox_fldPath" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="FolderPath" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="btn_getFolder" Content="Get Folder Details" Grid.Column="1" HorizontalAlignment="Left" Margin="135,42,0,0" VerticalAlignment="Top" Width="118" Click="btn_getFolder_Click"/>
+                    <ComboBox x:Name="cBox_FolderLifeCycle" Grid.Column="1" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="btn_updateFolderLifecycle" Content="Update LifeCycle" Grid.Column="1" HorizontalAlignment="Left" Margin="135,72,0,0" VerticalAlignment="Top" Width="118" Click="btn_updateFolderLifecycle_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="File" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="55">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="File" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="38" RenderTransformOrigin="-0.052,-0.245"/>
+                    <TextBox x:Name="tBox_selectedFile" HorizontalAlignment="Left" Height="23" Margin="53,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="520"/>
+                    <Button x:Name="btn_browseFile" Content="Browse" HorizontalAlignment="Left" Margin="578,10,0,0" VerticalAlignment="Top" Width="135" Click="btn_browseFile_Click"/>
+                    <Button x:Name="btn_fileCheckOut" Content="CehckOut" HorizontalAlignment="Left" Margin="718,11,0,0" VerticalAlignment="Top" Width="112" Click="btn_fileCheckOut_Click"/>
+                    <TextBox x:Name="tBox_FolderID_Copy" HorizontalAlignment="Left" Height="23" Margin="53,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="FOLDERID"/>
+                    <Button x:Name="btn_getFilesfromFolder_Copy" Content="Get Files from Folder" HorizontalAlignment="Left" Margin="178,42,0,0" VerticalAlignment="Top" Width="141" Click="btn_getFilesfromFolder_Click"/>
+                    <ListView x:Name="lView_FileLog" Margin="835,0,10,10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <TextBox x:Name="tBox_fileID" HorizontalAlignment="Left" Height="23" Margin="325,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="FileID"/>
+                    <Button x:Name="btn_fileProps" Content="Get Files Properties" HorizontalAlignment="Left" Margin="450,42,0,0" VerticalAlignment="Top" Width="141" Click="btn_fileProps_Click"/>
+                    <Button x:Name="btn_getlifeCycles" Content="Get Life Cycles" HorizontalAlignment="Left" Margin="223,72,0,0" VerticalAlignment="Top" Width="96" Click="btn_getlifeCycles_Click"/>
+                    <TextBox x:Name="tBox_FilePath" HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" Text="$/Civil3D/AAAA-2003.dwg" VerticalAlignment="Top" Width="208"/>
+                    <ComboBox x:Name="cBox_LifeCycle" HorizontalAlignment="Left" Margin="325,72,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="btn_updateLifeCycle" Content="Update LifeCycle" HorizontalAlignment="Left" Margin="450,72,0,0" VerticalAlignment="Top" Width="107" Click="btn_updateLifeCycle_Click"/>
+                    <Button x:Name="btn_FindFile" Content="Find File" HorizontalAlignment="Left" Margin="562,72,0,0" VerticalAlignment="Top" Width="75" Click="btn_FindFile_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="NumberScheme">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="126"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="46"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btn_get_NumSchemes" Content="Get Numbering Schemes" HorizontalAlignment="Left" Margin="480,56,0,0" VerticalAlignment="Top" Width="144" Click="btn_get_NumSchemes_Click"/>
+                    <Label Content="Numbering Schemes" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.635" Height="27" Width="134" Foreground="#FF252525"/>
+                    <ComboBox x:Name="cBox_NumberingSchemes" HorizontalAlignment="Left" Margin="150,56,0,0" VerticalAlignment="Top" Width="325" SelectionChanged="cBox_NumberingSchemes_SelectionChanged"/>
+                    <Label x:Name="lbl_sDetails" Content="" HorizontalAlignment="Left" Margin="150,93,0,0" VerticalAlignment="Top" Width="474" Foreground="#FF252525"/>
+                    <Label Content="Scheme Details" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="100" Foreground="#FF252525"/>
+                    <Label x:Name="lbl_nextnum" Content="" HorizontalAlignment="Left" Margin="150,11,0,0" VerticalAlignment="Top" Width="326" Foreground="#FF252525" Grid.Row="2"/>
+                    <Label Content="Next Number" HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top" Width="100" Foreground="#FF252525" Grid.Row="2"/>
+                    <Button x:Name="btn_getNum" Content="Get Number" HorizontalAlignment="Left" Margin="480,11,0,0" VerticalAlignment="Top" Width="76" Click="btn_getNum_Click" Grid.Row="2"/>
+                    <Label Content="Object Type" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.513,0.635" Height="27" Width="134" Foreground="#FF252525"/>
+                    <ComboBox x:Name="cBox_obj_Type" HorizontalAlignment="Left" Margin="150,18,0,0" VerticalAlignment="Top" Width="325" />
+                    <StackPanel x:Name="stackPanel_NumSchemes" HorizontalAlignment="Left" Margin="10,16.5,0,10" Width="465" Grid.Row="1"/>
+                    <TextBlock x:Name="tBlock_num" HorizontalAlignment="Left" Margin="650,11,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="236" Foreground="#FF2F2F2F" Grid.Row="2"/>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem/>
+            <TabItem Header="Item Master">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="501*"/>
+                        <ColumnDefinition Width="128*"/>
+                        <ColumnDefinition Width="544*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="54*"/>
+                        <RowDefinition Height="59*"/>
+                        <RowDefinition Height="443*"/>
+                        <RowDefinition Height="67*"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Pick a Category" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Width="124" Foreground="#FF3F3F46" Height="26"/>
+                    <ComboBox x:Name="cBox_ItemMasterCategoryList" HorizontalAlignment="Left" Margin="192,9,0,0" VerticalAlignment="Top" Width="294" Height="26"/>
+                    <Button x:Name="btn_getItemMasterCategories" Content="Get Categories" HorizontalAlignment="Left" Margin="8,10,0,0" VerticalAlignment="Top" Width="112" Click="btn_getItemMasterCategories_Click" Height="25" Grid.Column="1"/>
+                    <Label Content="Numbering Scheme" HorizontalAlignment="Left" Margin="22,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="124" Foreground="#FF252525"/>
+                    <ComboBox x:Name="cBox_ItemNumScheme" HorizontalAlignment="Left" Margin="192,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="294" SelectionChanged="cBox_ItemNumScheme_SelectionChanged"/>
+                    <Button x:Name="btn_GetItemNumSchemes" Content="Get NumSchemes" HorizontalAlignment="Left" Margin="8,11,0,0" Grid.Row="1" VerticalAlignment="Top" Width="112" Click="btn_GetItemNumSchemes_Click" Grid.Column="1"/>
+                    <StackPanel x:Name="sPanel_IM_NScheme" HorizontalAlignment="Left" Margin="10,10,0,10" Grid.Row="2" Width="476" Grid.RowSpan="2"/>
+                    <Button x:Name="btn_CreateItem" Content="Create Item" Grid.Column="2" HorizontalAlignment="Left" Margin="445,32,0,0" Grid.Row="3" VerticalAlignment="Top" Width="89" Click="btn_CreateItem_Click"/>
+                    <GroupBox Grid.Column="2" Header="Properties" Margin="10,10,10,122" Grid.Row="2">
+                        <Grid>
+                            <StackPanel x:Name="sPanel_Properties" Margin="10" CanHorizontallyScroll="True"/>
+
+                        </Grid>
+                    </GroupBox>
+                    <Button x:Name="btn_GetProperties" Content="Get Properties" Grid.Column="2" HorizontalAlignment="Left" Margin="410,14,0,0" Grid.Row="1" VerticalAlignment="Top" Width="124" Click="btn_GetProperties_Click"/>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="CutomObjects">
+                <Grid Background="#FFE5E5E5" Margin="0,4,0,2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="44*"/>
+                        <RowDefinition Height="579*"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btn_fetch" Content="Fetch" HorizontalAlignment="Left" Margin="896,10,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_1" Height="22"/>
+                    <DataGrid x:Name="dGrid_CustEntities" Margin="596,10,10,10" Grid.Row="1"/>
+                    <Button x:Name="btn_fetch_multi" Content="MultiFetch" HorizontalAlignment="Left" Margin="1022,10,0,0" VerticalAlignment="Top" Width="74" Click="btn_fetch_multi_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Logs" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="74">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="490*"/>
+                        <RowDefinition Height="61*"/>
+                    </Grid.RowDefinitions>
+                    <ListView x:Name="lView_Log" HorizontalAlignment="Left" Height="470" Margin="0,10,0,0" VerticalAlignment="Top" Width="1096">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Button x:Name="btn_clearlogs" Content="Clear" HorizontalAlignment="Left" Margin="1022,26,0,0" Grid.Row="1" VerticalAlignment="Top" Width="74" Click="btn_clearlogs_Click"/>
+                    <Button x:Name="btn_logtoTXT" Content="To TXTFile" HorizontalAlignment="Left" Margin="928,26,0,0" Grid.Row="1" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.86,0.96"/>
+                    <Button x:Name="btn_Copy" Content="Copy" HorizontalAlignment="Left" Margin="828,26,0,0" Grid.Row="1" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.86,0.96" Click="btn_Copy_Click"/>
+                </Grid>
+            </TabItem>
+
+
+        </TabControl>
+        <Button x:Name="btn_close" Content="Close" HorizontalAlignment="Left" Margin="1026,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Click="btn_close_Click" Height="25"/>
+
+
+    </Grid>
+</Controls:MetroWindow>

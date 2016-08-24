@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpVault16lib", "ZSharpV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpXMLHelper", "ZSharpXMLHelper\ZSharpXMLHelper\ZSharpXMLHelper.csproj", "{7E184AE7-82EC-4431-A1A9-B514F460126D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault16Tester", "Vault16Tester\Vault16Tester\Vault16Tester.csproj", "{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7E184AE7-82EC-4431-A1A9-B514F460126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E184AE7-82EC-4431-A1A9-B514F460126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E184AE7-82EC-4431-A1A9-B514F460126D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

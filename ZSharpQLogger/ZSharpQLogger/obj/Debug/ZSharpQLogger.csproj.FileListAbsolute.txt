@@ -17,6 +17,6 @@ G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpQLogger.dll
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpQLogger.pdb
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpLogger.dll
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpXMLHelper.dll
-G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.dll
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.pdb
+G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.csprojResolveAssemblyReference.cache

@@ -126,11 +126,18 @@ D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelp
 D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
 G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
 D:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Dev Notes.txt
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\Settings.xml
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DevZone\Log\Log.txt
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Help\ReadME.txt
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Help\ReleaseNotes.txt
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\Data\db.s3db
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpTextHelper.pdb
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpQLogger.dll
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpXMLHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Data.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\OSGeo.FDO.Common.dll
@@ -140,7 +147,7 @@ G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.S
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Projections.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\DotSpatial.Mono.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpFDOHelper.pdb
-G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpLogger.pdb
-G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.csprojResolveAssemblyReference.cache
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpQLogger.pdb
+G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\bin\Debug\ZSharpXMLHelper.pdb
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpTextHelper\ZSharpTextHelper\obj\Debug\ZSharpTextHelper.pdb
