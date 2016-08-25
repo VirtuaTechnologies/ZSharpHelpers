@@ -16,3 +16,7 @@ G:\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.pdb
 G:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.dll
 G:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.pdb
+R:\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.dll
+R:\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.pdb
+R:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.dll
+R:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.pdb

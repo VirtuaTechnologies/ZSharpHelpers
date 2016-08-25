@@ -20,3 +20,13 @@ G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpXMLHelper.dl
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.dll
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.pdb
 G:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.csprojResolveAssemblyReference.cache
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\Data\Settings.xml
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\DevZone\Log\Log.txt
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\Help\ReadME.txt
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\Help\ReleaseNotes.txt
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpQLogger.dll
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpQLogger.pdb
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpLogger.dll
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpXMLHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.dll
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.pdb

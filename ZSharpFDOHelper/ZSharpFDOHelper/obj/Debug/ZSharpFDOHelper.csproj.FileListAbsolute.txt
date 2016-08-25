@@ -85,3 +85,17 @@ G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpXMLHelpe
 G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpQLogger.pdb
 G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Data\Settings.xml
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\DevZone\Log\Log.txt
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Help\ReadME.txt
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Help\ReleaseNotes.txt
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\Dev Notes.txt
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpFDOHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpFDOHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpQLogger.dll
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpLogger.dll
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpXMLHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\bin\Debug\ZSharpQLogger.pdb
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.csprojResolveAssemblyReference.cache
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpFDOHelper\ZSharpFDOHelper\obj\Debug\ZSharpFDOHelper.pdb

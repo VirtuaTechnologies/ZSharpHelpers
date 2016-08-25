@@ -13,3 +13,16 @@ G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.Properties.Resourc
 G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.csproj.GenerateResource.Cache
 G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.exe
 G:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.pdb
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.exe.config
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.exe
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.pdb
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\MainWindow.g.cs
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\App.g.cs
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers_MarkupCompile.cache
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers_MarkupCompile.lref
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\MainWindow.baml
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.g.resources
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.Properties.Resources.resources
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.csproj.GenerateResource.Cache
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.exe
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.pdb

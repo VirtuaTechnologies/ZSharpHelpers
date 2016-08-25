@@ -87,6 +87,18 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="ZSharpGeneralHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpGeneralHelper\ZSharpGeneralHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ZSharpTextHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpTextHelper\ZSharpTextHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ZSharpVault16lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5afd6e68ffcb4736, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpVault16lib\ZSharpVault16lib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -134,20 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ZSharpGeneralHelper\ZSharpGeneralHelper\ZSharpGeneralHelper.csproj">
-      <Project>{941ca4b9-c097-4391-adfc-61cef0f18a94}</Project>
-      <Name>ZSharpGeneralHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZSharpTextHelper\ZSharpTextHelper\ZSharpTextHelper.csproj">
-      <Project>{aff53b8c-6e72-4aed-9719-f6c1facafe50}</Project>
-      <Name>ZSharpTextHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZSharpVault16lib\ZSharpVault15lib\ZSharpVault16lib.csproj">
-      <Project>{ba489032-1dba-4e34-82b9-ae907d366705}</Project>
-      <Name>ZSharpVault16lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

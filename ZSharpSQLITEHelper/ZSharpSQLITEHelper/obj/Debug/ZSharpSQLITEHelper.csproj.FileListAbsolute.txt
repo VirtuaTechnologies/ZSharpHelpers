@@ -15,3 +15,7 @@ G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQ
 G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.pdb

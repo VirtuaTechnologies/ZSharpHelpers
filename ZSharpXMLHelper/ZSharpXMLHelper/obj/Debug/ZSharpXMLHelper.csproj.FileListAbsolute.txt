@@ -17,3 +17,7 @@ G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelpe
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb

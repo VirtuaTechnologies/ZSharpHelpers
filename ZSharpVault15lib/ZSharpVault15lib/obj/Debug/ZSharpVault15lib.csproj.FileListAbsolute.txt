@@ -26,3 +26,5 @@ G:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\ZSharpVault15l
 G:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.dll
 G:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.pdb
+R:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.dll
+R:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.pdb

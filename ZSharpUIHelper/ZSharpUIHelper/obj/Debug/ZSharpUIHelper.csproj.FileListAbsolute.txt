@@ -8,3 +8,8 @@ G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.p
 G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.csprojResolveAssemblyReference.cache
 G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.dll
 G:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.csprojResolveAssemblyReference.cache
+R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.pdb

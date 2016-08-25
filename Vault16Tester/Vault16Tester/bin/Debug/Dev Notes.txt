@@ -1,4 +1,0 @@
-﻿Raghulan 20150107 
-- This library and other osgeo dlls should be unblocked and placed next to the main application if in case any error pop ups.
-- OSGEO all files should be placed with the application main .exe or dll
-- un block all dll files.
