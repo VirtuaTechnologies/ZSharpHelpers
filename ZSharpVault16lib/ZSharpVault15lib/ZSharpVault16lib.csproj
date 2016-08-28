@@ -41,39 +41,39 @@
   <ItemGroup>
     <Reference Include="Autodesk.Connectivity.Explorer.Extensibility, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.Explorer.Extensibility.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.Explorer.Extensibility.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.Explorer.ExtensibilityTools, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.Explorer.ExtensibilityTools.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.Explorer.ExtensibilityTools.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.Extensibility.Framework, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.Extensibility.Framework.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.Extensibility.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.JobProcessor.Extensibility, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.JobProcessor.Extensibility.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.JobProcessor.Extensibility.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.WebServices, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.WebServices.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.WebServices.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework.Forms, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.Forms.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework.Vault, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.Vault.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.Vault.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework.Vault.Forms, Version=19.0.0.0, Culture=neutral, PublicKeyToken=aa20f34aedd220e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -92,16 +92,15 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="VaultAPI.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c0a0c9b03f93b7ba, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\VaultAPI.Data\bin\Debug\Signed\VaultAPI.Data.dll</HintPath>
+    <Reference Include="VaultAPI.Data">
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\VaultAPI.Data\VaultAPI.Data.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="ZSharpQLogger">
-      <HintPath>..\..\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpQLogger.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpQLogger\ZSharpQLogger.dll</HintPath>
     </Reference>
     <Reference Include="ZSharpXMLHelper">
-      <HintPath>..\..\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\ZSharpXMLHelper.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
