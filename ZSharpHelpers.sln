@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpHelpers", "ZSharpHelpers\ZSharpHelpers.csproj", "{CC215484-0975-4EAC-ACA5-2788B5637AD0}"
 EndProject
@@ -23,9 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpVault15lib", "ZSharpV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpVault16lib", "ZSharpVault16lib\ZSharpVault15lib\ZSharpVault16lib.csproj", "{BA489032-1DBA-4E34-82B9-AE907D366705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpXMLHelper", "ZSharpXMLHelper\ZSharpXMLHelper\ZSharpXMLHelper.csproj", "{7E184AE7-82EC-4431-A1A9-B514F460126D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpXMLHelper", "ZSharpXMLHelper\ZSharpXMLHelper\VSharpXMLHelper.csproj", "{7E184AE7-82EC-4431-A1A9-B514F460126D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault16Tester", "Vault16Tester\Vault16Tester\Vault16Tester.csproj", "{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpLicHelper", "ZSharpLicHelper\ZSharpLicHelper.csproj", "{3E7503CD-7361-4E90-8175-D8EDC8DF6698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZSharpCADHelper", "ZSharpCADHelper\ZSharpCADHelper.csproj", "{B81512DA-508B-4355-9ACA-06D9ED0A79F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSharpSettingsHelper", "VSharpSettingsHelper\VSharpSettingsHelper.csproj", "{A02585D3-56D6-4E4F-96A7-1AEA853DFFD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9DFFEB-1058-48DC-8EA6-2AA1EABE463D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7503CD-7361-4E90-8175-D8EDC8DF6698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7503CD-7361-4E90-8175-D8EDC8DF6698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7503CD-7361-4E90-8175-D8EDC8DF6698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7503CD-7361-4E90-8175-D8EDC8DF6698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81512DA-508B-4355-9ACA-06D9ED0A79F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81512DA-508B-4355-9ACA-06D9ED0A79F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81512DA-508B-4355-9ACA-06D9ED0A79F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81512DA-508B-4355-9ACA-06D9ED0A79F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02585D3-56D6-4E4F-96A7-1AEA853DFFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02585D3-56D6-4E4F-96A7-1AEA853DFFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02585D3-56D6-4E4F-96A7-1AEA853DFFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02585D3-56D6-4E4F-96A7-1AEA853DFFD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,6 +42,8 @@ using VHFLDH = ZSharpVault16lib.FolderHelper;
 using VHLH = ZSharpVault16lib.lifeCycleHelper;
 using System.ComponentModel;
 using VaultAPI.Data;
+using ZFH = ZSharpGeneralHelper.FFManager;
+using ZSharpLicHelper;
 
 namespace Vault16Tester
 {
@@ -1282,6 +1284,23 @@ namespace Vault16Tester
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void btn_FileUpload_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                byte[] fileByt = ZFH.getFileBytes(tBox_localFiletoUpload.Text);
+                VHFH.uploadFiletoVaultFolder(GV.connection, VHFLDH.gefolderbyfolderPath(GV.connection, tBox_VaultFolder_fileUpload.Text).Id.ToString(), "Uplaoded by NEO", System.IO.Path.GetFileName(tBox_localFiletoUpload.Text), fileByt);
+            }
+            catch (NullReferenceException ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            catch (SystemException ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
         #endregion
 
         #region Folders
@@ -1468,6 +1487,41 @@ namespace Vault16Tester
         {
             LfCycState LS = cBox_FolderLifeCycle.SelectedItem as LfCycState;
             VHLH.updateFolderLifeCycle(GV.connection, tBox_fldPath.Text, LS.Id, "NEO");
+        }
+
+        private void tBox_FilePath_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void tBox_localFiletoUpload_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btn_Lic_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Lic lobj = new Lic();
+                string ss = lobj.GetMACAddress().ToString();
+                string app_path = System.IO.Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
+                MessageBox.Show(app_path);
+                bool status = lobj.ApplicationStatus(app_path + @"\License.XML");
+                if (status == false)
+                {
+                    MessageBox.Show(status.ToString() + lobj.getAppmessage());
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show(status.ToString() + lobj.getAppmessage());
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 

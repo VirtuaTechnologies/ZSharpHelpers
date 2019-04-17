@@ -1,0 +1,1505 @@
+
+//  Microsoft (R) .NET Framework IL Disassembler.  Version 3.5.30729.1
+//  Copyright (c) Microsoft Corporation.  All rights reserved.
+
+
+
+// Metadata version: v4.0.30319
+.assembly extern mscorlib
+{
+  .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+  .ver 4:0:0:0
+}
+.assembly VaultAPI.Data
+{
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
+                                                                                                             63 65 70 74 69 6F 6E 54 68 72 6F 77 73 01 )       // ceptionThrows.
+
+  // --- The following custom attribute is added automatically, do not uncomment -------
+  //  .custom instance void [mscorlib]System.Diagnostics.DebuggableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggableAttribute/DebuggingModes) = ( 01 00 07 01 00 00 00 00 ) 
+
+  .custom instance void [mscorlib]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 0D 56 61 75 6C 74 41 50 49 2E 44 61 74 61   // ...VaultAPI.Data
+                                                                                              00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyDescriptionAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 0D 56 61 75 6C 74 41 50 49 2E 44 61 74 61   // ...VaultAPI.Data
+                                                                                                00 00 ) 
+  .custom instance void [mscorlib]System.Reflection.AssemblyCopyrightAttribute::.ctor(string) = ( 01 00 12 43 6F 70 79 72 69 67 68 74 20 C2 A9 20   // ...Copyright .. 
+                                                                                                  20 32 30 31 36 00 00 )                            //  2016..
+  .custom instance void [mscorlib]System.Reflection.AssemblyTrademarkAttribute::.ctor(string) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.ComVisibleAttribute::.ctor(bool) = ( 01 00 00 00 00 ) 
+  .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 30 64 31 64 31 34 64 30 2D 36 61 36 34   // ..$0d1d14d0-6a64
+                                                                                                  2D 34 61 32 38 2D 38 64 30 39 2D 62 34 32 32 34   // -4a28-8d09-b4224
+                                                                                                  36 37 64 37 33 62 38 00 00 )                      // 67d73b8..
+  .custom instance void [mscorlib]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
+  .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string) = ( 01 00 1A 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+                                                                                                        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 36 01 00 54   // ,Version=v4.6..T
+                                                                                                        0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73 70 6C   // ..FrameworkDispl
+                                                                                                        61 79 4E 61 6D 65 12 2E 4E 45 54 20 46 72 61 6D   // ayName..NET Fram
+                                                                                                        65 77 6F 72 6B 20 34 2E 36 )                      // ework 4.6
+  .hash algorithm 0x00008004
+  .ver 1:0:0:0
+}
+.module VaultAPI.Data.dll
+// MVID: {8B0EEAB9-94EA-4B2F-8342-2B46C8487119}
+.imagebase 0x10000000
+.file alignment 0x00000200
+.stackreserve 0x00100000
+.subsystem 0x0003       // WINDOWS_CUI
+.corflags 0x00000001    //  ILONLY
+// Image base: 0x013E0000
+
+
+// =============== CLASS MEMBERS DECLARATION ===================
+
+.class public auto ansi beforefieldinit VaultAPI.Data.vObjs
+       extends [mscorlib]System.Object
+{
+  .method public hidebysig specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
+    IL_0006:  nop
+    IL_0007:  ret
+  } // end of method vObjs::.ctor
+
+} // end of class VaultAPI.Data.vObjs
+
+.class public auto ansi beforefieldinit VaultAPI.Data.fileInfo
+       extends [mscorlib]System.Object
+{
+  .field private string '<Cat>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private bool '<CheckedOut>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CkInDate>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CkOutUserId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private bool '<ControlledByChangeOrder>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CreateDate>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CreateUserId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CreateUserName>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<DesignVisAttmtStatus>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FileClass>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FileLfCyc>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FileRev>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FileSize>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FileStatus>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FolderId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private bool '<Hidden>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<Id>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<Locked>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<MasterId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<MaxCkInVerNum>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<ModDate>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<Name>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<VerNum>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<VerName>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .method public hidebysig specialname instance string 
+          get_Cat() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<Cat>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_Cat
+
+  .method public hidebysig specialname instance void 
+          set_Cat(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<Cat>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_Cat
+
+  .method public hidebysig specialname instance bool 
+          get_CheckedOut() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      bool VaultAPI.Data.fileInfo::'<CheckedOut>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_CheckedOut
+
+  .method public hidebysig specialname instance void 
+          set_CheckedOut(bool 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      bool VaultAPI.Data.fileInfo::'<CheckedOut>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_CheckedOut
+
+  .method public hidebysig specialname instance string 
+          get_CkInDate() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<CkInDate>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_CkInDate
+
+  .method public hidebysig specialname instance void 
+          set_CkInDate(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<CkInDate>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_CkInDate
+
+  .method public hidebysig specialname instance string 
+          get_CkOutUserId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<CkOutUserId>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_CkOutUserId
+
+  .method public hidebysig specialname instance void 
+          set_CkOutUserId(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<CkOutUserId>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_CkOutUserId
+
+  .method public hidebysig specialname instance bool 
+          get_ControlledByChangeOrder() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      bool VaultAPI.Data.fileInfo::'<ControlledByChangeOrder>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_ControlledByChangeOrder
+
+  .method public hidebysig specialname instance void 
+          set_ControlledByChangeOrder(bool 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      bool VaultAPI.Data.fileInfo::'<ControlledByChangeOrder>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_ControlledByChangeOrder
+
+  .method public hidebysig specialname instance string 
+          get_CreateDate() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<CreateDate>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_CreateDate
+
+  .method public hidebysig specialname instance void 
+          set_CreateDate(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<CreateDate>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_CreateDate
+
+  .method public hidebysig specialname instance string 
+          get_CreateUserId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<CreateUserId>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_CreateUserId
+
+  .method public hidebysig specialname instance void 
+          set_CreateUserId(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<CreateUserId>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_CreateUserId
+
+  .method public hidebysig specialname instance string 
+          get_CreateUserName() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<CreateUserName>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_CreateUserName
+
+  .method public hidebysig specialname instance void 
+          set_CreateUserName(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<CreateUserName>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_CreateUserName
+
+  .method public hidebysig specialname instance string 
+          get_DesignVisAttmtStatus() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<DesignVisAttmtStatus>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_DesignVisAttmtStatus
+
+  .method public hidebysig specialname instance void 
+          set_DesignVisAttmtStatus(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<DesignVisAttmtStatus>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_DesignVisAttmtStatus
+
+  .method public hidebysig specialname instance string 
+          get_FileClass() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<FileClass>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_FileClass
+
+  .method public hidebysig specialname instance void 
+          set_FileClass(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<FileClass>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_FileClass
+
+  .method public hidebysig specialname instance string 
+          get_FileLfCyc() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<FileLfCyc>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_FileLfCyc
+
+  .method public hidebysig specialname instance void 
+          set_FileLfCyc(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<FileLfCyc>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_FileLfCyc
+
+  .method public hidebysig specialname instance string 
+          get_FileRev() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<FileRev>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_FileRev
+
+  .method public hidebysig specialname instance void 
+          set_FileRev(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<FileRev>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_FileRev
+
+  .method public hidebysig specialname instance string 
+          get_FileSize() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<FileSize>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_FileSize
+
+  .method public hidebysig specialname instance void 
+          set_FileSize(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<FileSize>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_FileSize
+
+  .method public hidebysig specialname instance string 
+          get_FileStatus() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<FileStatus>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_FileStatus
+
+  .method public hidebysig specialname instance void 
+          set_FileStatus(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<FileStatus>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_FileStatus
+
+  .method public hidebysig specialname instance string 
+          get_FolderId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<FolderId>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_FolderId
+
+  .method public hidebysig specialname instance void 
+          set_FolderId(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<FolderId>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_FolderId
+
+  .method public hidebysig specialname instance bool 
+          get_Hidden() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      bool VaultAPI.Data.fileInfo::'<Hidden>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_Hidden
+
+  .method public hidebysig specialname instance void 
+          set_Hidden(bool 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      bool VaultAPI.Data.fileInfo::'<Hidden>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_Hidden
+
+  .method public hidebysig specialname instance string 
+          get_Id() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<Id>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_Id
+
+  .method public hidebysig specialname instance void 
+          set_Id(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<Id>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_Id
+
+  .method public hidebysig specialname instance string 
+          get_Locked() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<Locked>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_Locked
+
+  .method public hidebysig specialname instance void 
+          set_Locked(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<Locked>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_Locked
+
+  .method public hidebysig specialname instance string 
+          get_MasterId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<MasterId>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_MasterId
+
+  .method public hidebysig specialname instance void 
+          set_MasterId(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<MasterId>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_MasterId
+
+  .method public hidebysig specialname instance string 
+          get_MaxCkInVerNum() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<MaxCkInVerNum>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_MaxCkInVerNum
+
+  .method public hidebysig specialname instance void 
+          set_MaxCkInVerNum(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<MaxCkInVerNum>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_MaxCkInVerNum
+
+  .method public hidebysig specialname instance string 
+          get_ModDate() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<ModDate>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_ModDate
+
+  .method public hidebysig specialname instance void 
+          set_ModDate(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<ModDate>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_ModDate
+
+  .method public hidebysig specialname instance string 
+          get_Name() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<Name>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_Name
+
+  .method public hidebysig specialname instance void 
+          set_Name(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<Name>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_Name
+
+  .method public hidebysig specialname instance string 
+          get_VerNum() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<VerNum>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_VerNum
+
+  .method public hidebysig specialname instance void 
+          set_VerNum(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<VerNum>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_VerNum
+
+  .method public hidebysig specialname instance string 
+          get_VerName() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.fileInfo::'<VerName>k__BackingField'
+    IL_0006:  ret
+  } // end of method fileInfo::get_VerName
+
+  .method public hidebysig specialname instance void 
+          set_VerName(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.fileInfo::'<VerName>k__BackingField'
+    IL_0007:  ret
+  } // end of method fileInfo::set_VerName
+
+  .method public hidebysig specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
+    IL_0006:  nop
+    IL_0007:  ret
+  } // end of method fileInfo::.ctor
+
+  .property instance string Cat()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_Cat()
+    .set instance void VaultAPI.Data.fileInfo::set_Cat(string)
+  } // end of property fileInfo::Cat
+  .property instance bool CheckedOut()
+  {
+    .get instance bool VaultAPI.Data.fileInfo::get_CheckedOut()
+    .set instance void VaultAPI.Data.fileInfo::set_CheckedOut(bool)
+  } // end of property fileInfo::CheckedOut
+  .property instance string CkInDate()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_CkInDate()
+    .set instance void VaultAPI.Data.fileInfo::set_CkInDate(string)
+  } // end of property fileInfo::CkInDate
+  .property instance string CkOutUserId()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_CkOutUserId()
+    .set instance void VaultAPI.Data.fileInfo::set_CkOutUserId(string)
+  } // end of property fileInfo::CkOutUserId
+  .property instance bool ControlledByChangeOrder()
+  {
+    .get instance bool VaultAPI.Data.fileInfo::get_ControlledByChangeOrder()
+    .set instance void VaultAPI.Data.fileInfo::set_ControlledByChangeOrder(bool)
+  } // end of property fileInfo::ControlledByChangeOrder
+  .property instance string CreateDate()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_CreateDate()
+    .set instance void VaultAPI.Data.fileInfo::set_CreateDate(string)
+  } // end of property fileInfo::CreateDate
+  .property instance string CreateUserId()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_CreateUserId()
+    .set instance void VaultAPI.Data.fileInfo::set_CreateUserId(string)
+  } // end of property fileInfo::CreateUserId
+  .property instance string CreateUserName()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_CreateUserName()
+    .set instance void VaultAPI.Data.fileInfo::set_CreateUserName(string)
+  } // end of property fileInfo::CreateUserName
+  .property instance string DesignVisAttmtStatus()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_DesignVisAttmtStatus()
+    .set instance void VaultAPI.Data.fileInfo::set_DesignVisAttmtStatus(string)
+  } // end of property fileInfo::DesignVisAttmtStatus
+  .property instance string FileClass()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_FileClass()
+    .set instance void VaultAPI.Data.fileInfo::set_FileClass(string)
+  } // end of property fileInfo::FileClass
+  .property instance string FileLfCyc()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_FileLfCyc()
+    .set instance void VaultAPI.Data.fileInfo::set_FileLfCyc(string)
+  } // end of property fileInfo::FileLfCyc
+  .property instance string FileRev()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_FileRev()
+    .set instance void VaultAPI.Data.fileInfo::set_FileRev(string)
+  } // end of property fileInfo::FileRev
+  .property instance string FileSize()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_FileSize()
+    .set instance void VaultAPI.Data.fileInfo::set_FileSize(string)
+  } // end of property fileInfo::FileSize
+  .property instance string FileStatus()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_FileStatus()
+    .set instance void VaultAPI.Data.fileInfo::set_FileStatus(string)
+  } // end of property fileInfo::FileStatus
+  .property instance string FolderId()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_FolderId()
+    .set instance void VaultAPI.Data.fileInfo::set_FolderId(string)
+  } // end of property fileInfo::FolderId
+  .property instance bool Hidden()
+  {
+    .get instance bool VaultAPI.Data.fileInfo::get_Hidden()
+    .set instance void VaultAPI.Data.fileInfo::set_Hidden(bool)
+  } // end of property fileInfo::Hidden
+  .property instance string Id()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_Id()
+    .set instance void VaultAPI.Data.fileInfo::set_Id(string)
+  } // end of property fileInfo::Id
+  .property instance string Locked()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_Locked()
+    .set instance void VaultAPI.Data.fileInfo::set_Locked(string)
+  } // end of property fileInfo::Locked
+  .property instance string MasterId()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_MasterId()
+    .set instance void VaultAPI.Data.fileInfo::set_MasterId(string)
+  } // end of property fileInfo::MasterId
+  .property instance string MaxCkInVerNum()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_MaxCkInVerNum()
+    .set instance void VaultAPI.Data.fileInfo::set_MaxCkInVerNum(string)
+  } // end of property fileInfo::MaxCkInVerNum
+  .property instance string ModDate()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_ModDate()
+    .set instance void VaultAPI.Data.fileInfo::set_ModDate(string)
+  } // end of property fileInfo::ModDate
+  .property instance string Name()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_Name()
+    .set instance void VaultAPI.Data.fileInfo::set_Name(string)
+  } // end of property fileInfo::Name
+  .property instance string VerNum()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_VerNum()
+    .set instance void VaultAPI.Data.fileInfo::set_VerNum(string)
+  } // end of property fileInfo::VerNum
+  .property instance string VerName()
+  {
+    .get instance string VaultAPI.Data.fileInfo::get_VerName()
+    .set instance void VaultAPI.Data.fileInfo::set_VerName(string)
+  } // end of property fileInfo::VerName
+} // end of class VaultAPI.Data.fileInfo
+
+.class public auto ansi beforefieldinit VaultAPI.Data.folderInfo
+       extends [mscorlib]System.Object
+{
+  .field private string '<EntityName>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FolderPath>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FullName>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int32 '<NumberOfChildren>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<Category>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<catID>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CreateDate>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<CreateUserId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<CreateUserName>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<EntityClass>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<EntityIterationId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<EntityMasterId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<Id>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<FullUncName>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private bool '<IsLibraryFolder>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private bool '<IsVaultRoot>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private bool '<Locked>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<ParentId>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private int64 '<fileCount>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private string '<Color>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .field private class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo> '<childFolders>k__BackingField'
+  .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+  .custom instance void [mscorlib]System.Diagnostics.DebuggerBrowsableAttribute::.ctor(valuetype [mscorlib]System.Diagnostics.DebuggerBrowsableState) = ( 01 00 00 00 00 00 00 00 ) 
+  .method public hidebysig specialname instance string 
+          get_EntityName() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<EntityName>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_EntityName
+
+  .method public hidebysig specialname instance void 
+          set_EntityName(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<EntityName>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_EntityName
+
+  .method public hidebysig specialname instance string 
+          get_FolderPath() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<FolderPath>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_FolderPath
+
+  .method public hidebysig specialname instance void 
+          set_FolderPath(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<FolderPath>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_FolderPath
+
+  .method public hidebysig specialname instance string 
+          get_FullName() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<FullName>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_FullName
+
+  .method public hidebysig specialname instance void 
+          set_FullName(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<FullName>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_FullName
+
+  .method public hidebysig specialname instance int32 
+          get_NumberOfChildren() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int32 VaultAPI.Data.folderInfo::'<NumberOfChildren>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_NumberOfChildren
+
+  .method public hidebysig specialname instance void 
+          set_NumberOfChildren(int32 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int32 VaultAPI.Data.folderInfo::'<NumberOfChildren>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_NumberOfChildren
+
+  .method public hidebysig specialname instance string 
+          get_Category() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<Category>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_Category
+
+  .method public hidebysig specialname instance void 
+          set_Category(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<Category>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_Category
+
+  .method public hidebysig specialname instance int64 
+          get_catID() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<catID>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_catID
+
+  .method public hidebysig specialname instance void 
+          set_catID(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<catID>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_catID
+
+  .method public hidebysig specialname instance string 
+          get_CreateDate() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<CreateDate>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_CreateDate
+
+  .method public hidebysig specialname instance void 
+          set_CreateDate(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<CreateDate>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_CreateDate
+
+  .method public hidebysig specialname instance int64 
+          get_CreateUserId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<CreateUserId>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_CreateUserId
+
+  .method public hidebysig specialname instance void 
+          set_CreateUserId(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<CreateUserId>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_CreateUserId
+
+  .method public hidebysig specialname instance string 
+          get_CreateUserName() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<CreateUserName>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_CreateUserName
+
+  .method public hidebysig specialname instance void 
+          set_CreateUserName(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<CreateUserName>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_CreateUserName
+
+  .method public hidebysig specialname instance string 
+          get_EntityClass() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<EntityClass>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_EntityClass
+
+  .method public hidebysig specialname instance void 
+          set_EntityClass(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<EntityClass>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_EntityClass
+
+  .method public hidebysig specialname instance int64 
+          get_EntityIterationId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<EntityIterationId>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_EntityIterationId
+
+  .method public hidebysig specialname instance void 
+          set_EntityIterationId(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<EntityIterationId>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_EntityIterationId
+
+  .method public hidebysig specialname instance int64 
+          get_EntityMasterId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<EntityMasterId>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_EntityMasterId
+
+  .method public hidebysig specialname instance void 
+          set_EntityMasterId(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<EntityMasterId>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_EntityMasterId
+
+  .method public hidebysig specialname instance int64 
+          get_Id() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<Id>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_Id
+
+  .method public hidebysig specialname instance void 
+          set_Id(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<Id>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_Id
+
+  .method public hidebysig specialname instance string 
+          get_FullUncName() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<FullUncName>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_FullUncName
+
+  .method public hidebysig specialname instance void 
+          set_FullUncName(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<FullUncName>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_FullUncName
+
+  .method public hidebysig specialname instance bool 
+          get_IsLibraryFolder() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      bool VaultAPI.Data.folderInfo::'<IsLibraryFolder>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_IsLibraryFolder
+
+  .method public hidebysig specialname instance void 
+          set_IsLibraryFolder(bool 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      bool VaultAPI.Data.folderInfo::'<IsLibraryFolder>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_IsLibraryFolder
+
+  .method public hidebysig specialname instance bool 
+          get_IsVaultRoot() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      bool VaultAPI.Data.folderInfo::'<IsVaultRoot>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_IsVaultRoot
+
+  .method public hidebysig specialname instance void 
+          set_IsVaultRoot(bool 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      bool VaultAPI.Data.folderInfo::'<IsVaultRoot>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_IsVaultRoot
+
+  .method public hidebysig specialname instance bool 
+          get_Locked() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      bool VaultAPI.Data.folderInfo::'<Locked>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_Locked
+
+  .method public hidebysig specialname instance void 
+          set_Locked(bool 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      bool VaultAPI.Data.folderInfo::'<Locked>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_Locked
+
+  .method public hidebysig specialname instance int64 
+          get_ParentId() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<ParentId>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_ParentId
+
+  .method public hidebysig specialname instance void 
+          set_ParentId(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<ParentId>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_ParentId
+
+  .method public hidebysig specialname instance int64 
+          get_fileCount() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      int64 VaultAPI.Data.folderInfo::'<fileCount>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_fileCount
+
+  .method public hidebysig specialname instance void 
+          set_fileCount(int64 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      int64 VaultAPI.Data.folderInfo::'<fileCount>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_fileCount
+
+  .method public hidebysig specialname instance string 
+          get_Color() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      string VaultAPI.Data.folderInfo::'<Color>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_Color
+
+  .method public hidebysig specialname instance void 
+          set_Color(string 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      string VaultAPI.Data.folderInfo::'<Color>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_Color
+
+  .method public hidebysig specialname instance class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo> 
+          get_childFolders() cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       7 (0x7)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldfld      class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo> VaultAPI.Data.folderInfo::'<childFolders>k__BackingField'
+    IL_0006:  ret
+  } // end of method folderInfo::get_childFolders
+
+  .method public hidebysig specialname instance void 
+          set_childFolders(class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo> 'value') cil managed
+  {
+    .custom instance void [mscorlib]System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor() = ( 01 00 00 00 ) 
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldarg.1
+    IL_0002:  stfld      class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo> VaultAPI.Data.folderInfo::'<childFolders>k__BackingField'
+    IL_0007:  ret
+  } // end of method folderInfo::set_childFolders
+
+  .method public hidebysig specialname rtspecialname 
+          instance void  .ctor() cil managed
+  {
+    // Code size       8 (0x8)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  call       instance void [mscorlib]System.Object::.ctor()
+    IL_0006:  nop
+    IL_0007:  ret
+  } // end of method folderInfo::.ctor
+
+  .property instance string EntityName()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_EntityName()
+    .set instance void VaultAPI.Data.folderInfo::set_EntityName(string)
+  } // end of property folderInfo::EntityName
+  .property instance string FolderPath()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_FolderPath()
+    .set instance void VaultAPI.Data.folderInfo::set_FolderPath(string)
+  } // end of property folderInfo::FolderPath
+  .property instance string FullName()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_FullName()
+    .set instance void VaultAPI.Data.folderInfo::set_FullName(string)
+  } // end of property folderInfo::FullName
+  .property instance int32 NumberOfChildren()
+  {
+    .get instance int32 VaultAPI.Data.folderInfo::get_NumberOfChildren()
+    .set instance void VaultAPI.Data.folderInfo::set_NumberOfChildren(int32)
+  } // end of property folderInfo::NumberOfChildren
+  .property instance string Category()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_Category()
+    .set instance void VaultAPI.Data.folderInfo::set_Category(string)
+  } // end of property folderInfo::Category
+  .property instance int64 catID()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_catID()
+    .set instance void VaultAPI.Data.folderInfo::set_catID(int64)
+  } // end of property folderInfo::catID
+  .property instance string CreateDate()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_CreateDate()
+    .set instance void VaultAPI.Data.folderInfo::set_CreateDate(string)
+  } // end of property folderInfo::CreateDate
+  .property instance int64 CreateUserId()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_CreateUserId()
+    .set instance void VaultAPI.Data.folderInfo::set_CreateUserId(int64)
+  } // end of property folderInfo::CreateUserId
+  .property instance string CreateUserName()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_CreateUserName()
+    .set instance void VaultAPI.Data.folderInfo::set_CreateUserName(string)
+  } // end of property folderInfo::CreateUserName
+  .property instance string EntityClass()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_EntityClass()
+    .set instance void VaultAPI.Data.folderInfo::set_EntityClass(string)
+  } // end of property folderInfo::EntityClass
+  .property instance int64 EntityIterationId()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_EntityIterationId()
+    .set instance void VaultAPI.Data.folderInfo::set_EntityIterationId(int64)
+  } // end of property folderInfo::EntityIterationId
+  .property instance int64 EntityMasterId()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_EntityMasterId()
+    .set instance void VaultAPI.Data.folderInfo::set_EntityMasterId(int64)
+  } // end of property folderInfo::EntityMasterId
+  .property instance int64 Id()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_Id()
+    .set instance void VaultAPI.Data.folderInfo::set_Id(int64)
+  } // end of property folderInfo::Id
+  .property instance string FullUncName()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_FullUncName()
+    .set instance void VaultAPI.Data.folderInfo::set_FullUncName(string)
+  } // end of property folderInfo::FullUncName
+  .property instance bool IsLibraryFolder()
+  {
+    .get instance bool VaultAPI.Data.folderInfo::get_IsLibraryFolder()
+    .set instance void VaultAPI.Data.folderInfo::set_IsLibraryFolder(bool)
+  } // end of property folderInfo::IsLibraryFolder
+  .property instance bool IsVaultRoot()
+  {
+    .get instance bool VaultAPI.Data.folderInfo::get_IsVaultRoot()
+    .set instance void VaultAPI.Data.folderInfo::set_IsVaultRoot(bool)
+  } // end of property folderInfo::IsVaultRoot
+  .property instance bool Locked()
+  {
+    .get instance bool VaultAPI.Data.folderInfo::get_Locked()
+    .set instance void VaultAPI.Data.folderInfo::set_Locked(bool)
+  } // end of property folderInfo::Locked
+  .property instance int64 ParentId()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_ParentId()
+    .set instance void VaultAPI.Data.folderInfo::set_ParentId(int64)
+  } // end of property folderInfo::ParentId
+  .property instance int64 fileCount()
+  {
+    .get instance int64 VaultAPI.Data.folderInfo::get_fileCount()
+    .set instance void VaultAPI.Data.folderInfo::set_fileCount(int64)
+  } // end of property folderInfo::fileCount
+  .property instance string Color()
+  {
+    .get instance string VaultAPI.Data.folderInfo::get_Color()
+    .set instance void VaultAPI.Data.folderInfo::set_Color(string)
+  } // end of property folderInfo::Color
+  .property instance class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo>
+          childFolders()
+  {
+    .get instance class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo> VaultAPI.Data.folderInfo::get_childFolders()
+    .set instance void VaultAPI.Data.folderInfo::set_childFolders(class [mscorlib]System.Collections.Generic.List`1<class VaultAPI.Data.folderInfo>)
+  } // end of property folderInfo::childFolders
+} // end of class VaultAPI.Data.folderInfo
+
+
+// =============================================================
+
+// *********** DISASSEMBLY COMPLETE ***********************
+// WARNING: Created Win32 resource file .\Signed\VaultAPI.Data.res

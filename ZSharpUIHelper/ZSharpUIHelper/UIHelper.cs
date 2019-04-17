@@ -1,11 +1,14 @@
-﻿using System;
+﻿using Notifications.Wpf;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Threading;
 using GV = ZSharpUIHelper.Global.variable;
 
 namespace ZSharpUIHelper
@@ -74,5 +77,55 @@ namespace ZSharpUIHelper
             return Content;
         }
 
+        public static Brush convertHEXtoBrush(string hexCode)
+        {
+            var converter = new System.Windows.Media.BrushConverter();
+            var brush = (Brush)converter.ConvertFromString(hexCode);
+            return brush;
+        }
+
+        public static void toastIT(string appName, string message, string title, string notificationType)
+        {
+            NotificationType NType;
+            if (notificationType == "Success")
+            {
+                NType = NotificationType.Success;
+            }
+            else if (notificationType == "Error")
+            {
+                NType = NotificationType.Error;
+            }
+            else if (notificationType == "Warning")
+            {
+                NType = NotificationType.Warning;
+            }
+            else
+            { NType = NotificationType.Information; }
+                
+
+            var notificationManager = new NotificationManager();
+
+            notificationManager.Show(new NotificationContent
+            {
+                Title = appName + " | " + title,
+                Message = message,
+                Type = NType
+            });
+        }
+
+        public static void DoEvents()
+        {
+            DispatcherFrame frame = new DispatcherFrame();
+            Dispatcher.CurrentDispatcher.BeginInvoke(DispatcherPriority.Background,
+                new DispatcherOperationCallback(ExitFrame), frame);
+            Dispatcher.PushFrame(frame);
+        }
+
+        public static object ExitFrame(object f)
+        {
+            ((DispatcherFrame)f).Continue = false;
+
+            return null;
+        }
     }
 }

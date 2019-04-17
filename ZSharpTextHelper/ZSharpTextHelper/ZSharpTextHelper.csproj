@@ -74,9 +74,9 @@
       <Project>{43d8d449-509c-429d-ac0f-53a11ce89cbb}</Project>
       <Name>ZSharpQLogger</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\ZSharpXMLHelper\ZSharpXMLHelper\ZSharpXMLHelper.csproj">
+    <ProjectReference Include="..\..\ZSharpXMLHelper\ZSharpXMLHelper\VSharpXMLHelper.csproj">
       <Project>{7E184AE7-82EC-4431-A1A9-B514F460126D}</Project>
-      <Name>ZSharpXMLHelper</Name>
+      <Name>VSharpXMLHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,4 @@
+R:\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\VSharpXMLHelper.dll
+R:\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\VSharpXMLHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\VSharpXMLHelper.dll
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\VSharpXMLHelper.pdb

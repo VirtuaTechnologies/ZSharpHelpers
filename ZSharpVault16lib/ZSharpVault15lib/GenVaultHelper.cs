@@ -41,6 +41,14 @@ namespace ZSharpVault16lib
             }
         }
 
+        public static void initializeLibSettings()
+        {
+            getPath();
+            getSettings();
+            setLogFiles();
+
+        }
+
         public static void getSettings()
         {
             if (System.IO.File.Exists(Global.variables.settingsFile))
@@ -77,7 +85,7 @@ namespace ZSharpVault16lib
         {
             GV.appPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             GV.dataPath = GV.appPath + "\\Data\\";
-            GV.settingsFile = GV.appPath + @"\Data\VCRestSettings.xml";
+            GV.settingsFile = GV.appPath + @"\Data\ZSharpVault16libSettings.xml";
             //GV.logFile = GV.appPath + @"\Data\CMWCF.log";
         }
 

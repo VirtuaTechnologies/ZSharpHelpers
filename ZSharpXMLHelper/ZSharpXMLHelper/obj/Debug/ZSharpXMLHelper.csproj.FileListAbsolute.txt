@@ -21,3 +21,12 @@ R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelpe
 R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
 R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
 R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.dll
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\bin\Debug\ZSharpXMLHelper.pdb
+R:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\ZSharpXMLHelper.dll
+R:\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\ZSharpXMLHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.dll
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.pdb
+R:\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\ZSharpXMLHelper.dll
+R:\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\ZSharpXMLHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpXMLHelper\ZSharpXMLHelper\obj\Debug\ZSharpXMLHelper.csprojResolveAssemblyReference.cache

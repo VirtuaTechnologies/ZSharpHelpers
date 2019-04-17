@@ -50,3 +50,9 @@ R:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharp
 R:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
 R:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
 R:\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ReadME.txt
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.dll
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\bin\Debug\ZSharpGeneralHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.dll
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Debug\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache

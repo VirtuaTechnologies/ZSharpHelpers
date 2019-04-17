@@ -10,3 +10,9 @@ G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Soluti
 G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache
 G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.dll
 G:\GDrive\Zcodia Technologies (ZT)\Area51\Resources\Development\Libraries-Solutions\ZLibrary\DotNET\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.pdb
+R:\Dropbox\GitHub\ZSharpLicense\ReleasePackage\ReadME.txt
+R:\Dropbox\GitHub\ZSharpLicense\ReleasePackage\ZSharpGeneralHelper.dll
+R:\Dropbox\GitHub\ZSharpLicense\ReleasePackage\ZSharpGeneralHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.dll
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpGeneralHelper\ZSharpGeneralHelper\obj\Release\ZSharpGeneralHelper.csprojResolveAssemblyReference.cache

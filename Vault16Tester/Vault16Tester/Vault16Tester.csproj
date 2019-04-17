@@ -36,42 +36,44 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autodesk.Connectivity.Explorer.Extensibility">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.Explorer.Extensibility.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.Explorer.Extensibility.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.Explorer.ExtensibilityTools">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.Explorer.ExtensibilityTools.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.Explorer.ExtensibilityTools.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.Extensibility.Framework">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.Extensibility.Framework.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.Extensibility.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.JobProcessor.Extensibility">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.JobProcessor.Extensibility.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.JobProcessor.Extensibility.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Connectivity.WebServices">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.Connectivity.WebServices.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.Connectivity.WebServices.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework.Forms">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.Forms.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.Forms.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework.Vault">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.Vault.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.Vault.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.DataManagement.Client.Framework.Vault.Forms">
-      <HintPath>C:\Program Files (x86)\Autodesk\Autodesk Vault 2016 SDK\bin\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\3rdParty\DOTNet\Autodesk\2016\Vault\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="MahApps.Metro">
-      <HintPath>..\packages\MahApps.Metro.1.1.2.0\lib\net45\MahApps.Metro.dll</HintPath>
+    <Reference Include="MahApps.Metro, Version=1.2.4.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.2.4.0\lib\net45\MahApps.Metro.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\MahApps.Metro.1.1.2.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <HintPath>..\packages\MahApps.Metro.1.2.4.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -82,22 +84,19 @@
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="VaultAPI.Data">
-      <HintPath>..\..\..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\VaultAPI.Data\bin\Debug\Signed\VaultAPI.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\VaultAPI.Data\VaultAPI.Data.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="ZSharpGeneralHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpGeneralHelper\ZSharpGeneralHelper.dll</HintPath>
+    <Reference Include="ZSharpQLogger">
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpQLogger\ZSharpQLogger.dll</HintPath>
     </Reference>
-    <Reference Include="ZSharpTextHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpTextHelper\ZSharpTextHelper.dll</HintPath>
+    <Reference Include="ZSharpTextHelper">
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpTextHelper\ZSharpTextHelper.dll</HintPath>
     </Reference>
-    <Reference Include="ZSharpVault16lib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5afd6e68ffcb4736, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Dropbox\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpVault16lib\ZSharpVault16lib.dll</HintPath>
+    <Reference Include="ZSharpXMLHelper">
+      <HintPath>..\..\..\..\Area51\Resources\Development\Libs-Sols\ZLibrary\DotNET\Libs\ZSharpXMLHelper\ZSharpXMLHelper.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +145,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ZSharpGeneralHelper\ZSharpGeneralHelper\ZSharpGeneralHelper.csproj">
+      <Project>{941ca4b9-c097-4391-adfc-61cef0f18a94}</Project>
+      <Name>ZSharpGeneralHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZSharpLicHelper\ZSharpLicHelper.csproj">
+      <Project>{3e7503cd-7361-4e90-8175-d8edc8df6698}</Project>
+      <Name>ZSharpLicHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ZSharpVault16lib\ZSharpVault15lib\ZSharpVault16lib.csproj">
+      <Project>{ba489032-1dba-4e34-82b9-ae907d366705}</Project>
+      <Name>ZSharpVault16lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -344,5 +344,16 @@ namespace ZSharpGeneralHelper
 
             return buffer;
         }
+
+        public static string GetMD5HashFromFile(string fileName)
+        {
+            using (var md5 = MD5.Create())
+            {
+                using (var stream = File.OpenRead(fileName))
+                {
+                    return BitConverter.ToString(md5.ComputeHash(stream)).Replace("-", string.Empty);
+                }
+            }
+        }
     }
 }

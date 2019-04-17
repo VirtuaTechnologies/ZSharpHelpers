@@ -13,3 +13,4 @@ R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\ZSharpUIHelper.p
 R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.csprojResolveAssemblyReference.cache
 R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.dll
 R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\obj\Debug\ZSharpUIHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpUIHelper\ZSharpUIHelper\bin\Debug\Notifications.Wpf.dll

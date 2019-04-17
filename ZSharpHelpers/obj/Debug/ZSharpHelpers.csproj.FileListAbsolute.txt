@@ -26,3 +26,5 @@ R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.Properties.Resourc
 R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.csproj.GenerateResource.Cache
 R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.exe
 R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpHelpers\bin\Debug\ZSharpHelpers.exe.config
+R:\GitHub\ZSharpHelpers\ZSharpHelpers\obj\Debug\ZSharpHelpers.csprojResolveAssemblyReference.cache

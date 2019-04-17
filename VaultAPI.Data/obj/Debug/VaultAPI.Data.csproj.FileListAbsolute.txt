@@ -20,3 +20,9 @@ R:\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.dll
 R:\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.pdb
 R:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.dll
 R:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.dll
+R:\Dropbox\GitHub\ZSharpHelpers\VaultAPI.Data\bin\Debug\VaultAPI.Data.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.csprojResolveAssemblyReference.cache
+R:\Dropbox\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.dll
+R:\Dropbox\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.pdb
+R:\GitHub\ZSharpHelpers\VaultAPI.Data\obj\Debug\VaultAPI.Data.csprojResolveAssemblyReference.cache

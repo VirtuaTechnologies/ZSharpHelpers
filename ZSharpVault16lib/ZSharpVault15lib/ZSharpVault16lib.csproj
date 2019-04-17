@@ -119,7 +119,9 @@
     <None Include="ZShareVault15.snk" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\ZSharpVault16libSettings.xml" />
+    <Content Include="Data\ZSharpVault16libSettings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ZSharpGeneralHelper
 {
-    class FFManager
+    public class FFManager
     {
         private static string txt_doc_string;
         private static List<string> AllFiles;
+        private static byte[] fileBytes;
 
         public static List<string> getFilesfromDir(string[] extensionList, string[] dirList, bool includeSubDir)
         {
@@ -149,5 +151,133 @@ namespace ZSharpGeneralHelper
             }
             return list;
         }
+
+        public static byte[] getFileBytes(string file)
+        {
+            try
+            {
+                if (File.Exists(file))
+                {
+                    fileBytes = File.ReadAllBytes(file);
+                }
+                else
+                {
+                    fileBytes = null;
+                }
+            }
+           
+            catch (System.Exception ex)
+            {
+                //GH.writeAdminLog(ex.ToString());
+            }
+            return fileBytes;
+        }
+
+        public static bool IsFileLocked(string fileString)
+        {
+            FileInfo file = new FileInfo(fileString);
+            FileStream stream = null;
+
+            try
+            {
+                if (File.Exists(fileString))
+                {
+                    stream = file.Open(FileMode.Open, FileAccess.Read, FileShare.None);
+                }
+                else
+                {
+                    //file is not found
+                    return false;
+                }
+            }
+            catch (IOException)
+            {
+                //the file is unavailable because it is:
+                //still being written to
+                //or being processed by another thread
+                //or does not exist (has already been processed)
+                return true;
+            }
+            finally
+            {
+                if (stream != null)
+                    stream.Close();
+            }
+
+            //file is not locked
+            return false;
+        }
+
+        public static void deleteFolderContent(string path)
+        {
+            System.IO.DirectoryInfo di = new DirectoryInfo(path);
+
+            foreach (FileInfo file in di.GetFiles())
+            {
+                file.Delete();
+            }
+        }
+
+        public static List<int> getNumericFolder(string path)
+        {
+            List<int> folderNums = new List<int>();
+            try
+            {
+                
+                foreach (var folder in System.IO.Directory.GetDirectories(path, "*", System.IO.SearchOption.AllDirectories).ToList())
+                {
+
+                    int number;
+                    bool result = Int32.TryParse(folder.Replace(path, ""), out number);
+                    if (result)
+                    {
+                        folderNums.Add(number);
+                    }
+                }
+            }
+
+            catch (System.Exception ex)
+            {
+                //GH.writeAdminLog(ex.ToString());
+            }
+            return folderNums;
+        }
+
+        public static int getNextNumericFolder(string path)
+        {
+            List<int> folderNums = new List<int>();
+            folderNums = getNumericFolder(path);
+            
+            return folderNums.Max() + 1;
+        }
+
+        public static byte[] streamtoByteArray(Stream input)
+        {
+            byte[] buffer = new byte[16 * 1024];
+            using (MemoryStream ms = new MemoryStream())
+            {
+                int read;
+                while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    ms.Write(buffer, 0, read);
+                }
+                return ms.ToArray();
+            }
+        }
+
+        public static void createFolder(string path)
+        {
+            try
+            {
+                //check app path is created if not create it
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+            }
+            catch (System.Exception ex) { }
+        }
+
+        
     }
 }

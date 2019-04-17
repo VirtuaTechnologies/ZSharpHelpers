@@ -112,10 +112,13 @@
                     <TextBox x:Name="tBox_fileID" HorizontalAlignment="Left" Height="23" Margin="325,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="FileID"/>
                     <Button x:Name="btn_fileProps" Content="Get Files Properties" HorizontalAlignment="Left" Margin="450,42,0,0" VerticalAlignment="Top" Width="141" Click="btn_fileProps_Click"/>
                     <Button x:Name="btn_getlifeCycles" Content="Get Life Cycles" HorizontalAlignment="Left" Margin="223,72,0,0" VerticalAlignment="Top" Width="96" Click="btn_getlifeCycles_Click"/>
-                    <TextBox x:Name="tBox_FilePath" HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" Text="$/Civil3D/AAAA-2003.dwg" VerticalAlignment="Top" Width="208"/>
+                    <TextBox x:Name="tBox_FilePath" HorizontalAlignment="Left" Height="23" Margin="10,72,0,0" TextWrapping="Wrap" Text="$/Civil3D/AAAA-2003.dwg" VerticalAlignment="Top" Width="208" TextChanged="tBox_FilePath_TextChanged"/>
                     <ComboBox x:Name="cBox_LifeCycle" HorizontalAlignment="Left" Margin="325,72,0,0" VerticalAlignment="Top" Width="120"/>
                     <Button x:Name="btn_updateLifeCycle" Content="Update LifeCycle" HorizontalAlignment="Left" Margin="450,72,0,0" VerticalAlignment="Top" Width="107" Click="btn_updateLifeCycle_Click"/>
                     <Button x:Name="btn_FindFile" Content="Find File" HorizontalAlignment="Left" Margin="562,72,0,0" VerticalAlignment="Top" Width="75" Click="btn_FindFile_Click"/>
+                    <TextBox x:Name="tBox_localFiletoUpload" HorizontalAlignment="Left" Height="23" Margin="10,103,0,0" TextWrapping="Wrap" Text="C:\A2KApps\CMApp\BlockData\Blocks\2-WAY.DWG" VerticalAlignment="Top" Width="208" TextChanged="tBox_localFiletoUpload_TextChanged"/>
+                    <TextBox x:Name="tBox_VaultFolder_fileUpload" HorizontalAlignment="Left" Height="23" Margin="223,102,0,0" TextWrapping="Wrap" Text="$/" VerticalAlignment="Top" Width="222"/>
+                    <Button x:Name="btn_FileUpload" Content="Upload File" HorizontalAlignment="Left" Margin="450,102,0,0" VerticalAlignment="Top" Width="107" Click="btn_FileUpload_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="NumberScheme">
@@ -207,6 +210,7 @@
 
         </TabControl>
         <Button x:Name="btn_close" Content="Close" HorizontalAlignment="Left" Margin="1026,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Click="btn_close_Click" Height="25"/>
+        <Button x:Name="btn_Lic" Content="License" HorizontalAlignment="Left" Margin="946,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="75" Click="btn_Lic_Click"/>
 
 
     </Grid>

@@ -44,6 +44,21 @@ namespace ZSharpVault16lib
             }
             return boolRes;
         }
+
+        public static bool checkifFileExistsusingFolderID(VDF.Vault.Currency.Connections.Connection connection, string fileID, string folderID)
+        {
+            try
+            {
+                
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+                //MessageBox.Show(ex.ToString());
+            }
+            return boolRes;
+        }
+
         public static File gefilebyfilePath(VDF.Vault.Currency.Connections.Connection connection, string filePath)
         {
             Autodesk.Connectivity.WebServices.File selectedFile = null;
@@ -99,7 +114,7 @@ namespace ZSharpVault16lib
             return selectedFile;
         }
 
-        public string downloadVaultFilebyID(VDF.Vault.Currency.Connections.Connection connection, string path, long selectedFileID)
+        public static string downloadVaultFilebyID(VDF.Vault.Currency.Connections.Connection connection, string path, long selectedFileID)
         {
             try
             {
@@ -117,12 +132,14 @@ namespace ZSharpVault16lib
                     if (!System.IO.File.Exists(path + "\\" + localFile.Name))
                     {
                         //failedFiles.Add(file);
-                        statusMess += "\n" + path + "\\" + localFile.Name + " - File Check Issue";
+                        statusMess = "File Download Failed!";
+                        ZGHCC.writeLog(statusMess);
                     }
                     else
                     {
                         statusMess = path + "\\" + localFile.Name;
                         //fileExt = System.IO.Path.GetExtension(localFile.Name);
+                        ZGHCC.writeLog(statusMess);
                     }
 
                 }
@@ -269,6 +286,7 @@ namespace ZSharpVault16lib
                     ZGHCC.writeLog(string.Format("== LIB 1 DICT == >>   '{0}' = '{1}'", propDefs[key].DisplayName.ToString(), propValue == null ? "" : propValue.ToString()));
                 }
                 dict.Add("Id", fileInteration.EntityMasterId.ToString());
+                dict.Add("EntityClass", "File");
             }
             catch (SystemException ex)
             {
@@ -310,6 +328,7 @@ namespace ZSharpVault16lib
             }
             return resultVal;
         }
+
 
         private static Autodesk.Connectivity.WebServices.File[] filecoll;
 
@@ -418,7 +437,7 @@ namespace ZSharpVault16lib
             return fileColls.ToList<Autodesk.Connectivity.WebServices.File>();
         }
 
-        public static void uploadFiletoVaultFolder(VDF.Vault.Currency.Connections.Connection connection, string folderID, string comment, string fileName, byte[] fileBytes)
+        public static bool uploadFiletoVaultFolder(VDF.Vault.Currency.Connections.Connection connection, string destinationTempFolder, string folderID, string comment, string fileName, byte[] fileBytes)
         {
             try
             {
@@ -427,17 +446,32 @@ namespace ZSharpVault16lib
                 FileAssocParam fileAssocArray = new FileAssocParam();
                 FileAssocParam[] paramArray = fileAssocParamList.ToArray();
                 BOM _bom = new BOM();
-                string destinationFile = System.IO.Path.GetTempPath() + fileName;
-                System.IO.File.WriteAllBytes(destinationFile, fileBytes);
-                VDF.Currency.FilePathAbsolute FPA = new VDF.Currency.FilePathAbsolute(destinationFile);
-                connection.FileManager.AddFile(fld, comment, paramArray, _bom, FileClassification.None, false, FPA);
+                //string destinationFile = System.IO.Path.GetTempPath() + fileName;
+                System.IO.File.WriteAllBytes(destinationTempFolder, fileBytes);
+                VDF.Currency.FilePathAbsolute FPA = new VDF.Currency.FilePathAbsolute(destinationTempFolder);
+                FileIteration FI = connection.FileManager.AddFile(fld, comment, paramArray, _bom, FileClassification.None, false, FPA);
+
+                //cehck if file exists
+                if (FI.FolderId.ToString() == folderID)
+                {
+                    ZGHCC.writeLog("File uplaoded and it Exists: " + folderID + " | " + comment);
+                    boolRes = true;
+                }
+                else
+                {
+                    boolRes = false;
+                }
+                
             }
             catch (SystemException ex)
             {
+                ZGHCC.writeLog("uploadFiletoVaultFolder EX: " +  ex.ToString());
                 statusMess = null;
                 Debug.Write("\nError: " + ex.ToString());
                 statusMess = "Error: \n" + ex.ToString();
+                boolRes = false;
             }
+            return boolRes;
         }
         /*
         public static Dictionary<string, string> getFileAllVals(VDF.Vault.Currency.Connections.Connection connection, File selectedFile)

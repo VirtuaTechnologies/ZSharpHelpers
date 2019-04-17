@@ -30,3 +30,5 @@ R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpLogger.dll
 R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\bin\Debug\ZSharpXMLHelper.dll
 R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.dll
 R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.pdb
+R:\Dropbox\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.csprojResolveAssemblyReference.cache
+R:\GitHub\ZSharpHelpers\ZSharpQLogger\ZSharpQLogger\obj\Debug\ZSharpQLogger.csprojResolveAssemblyReference.cache

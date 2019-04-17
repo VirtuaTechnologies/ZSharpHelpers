@@ -1,0 +1,14 @@
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Data\VSSH_Lib_Settings.xml
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\DevZone\Log\Log.txt
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Help\ReadME.txt
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Help\ReleaseNotes.txt
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Samples\DefinitionSample.def
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Samples\XMLSample.XML
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Samples\XMLSampleAdv.xml
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\Samples\MapSample.map
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\VSharpSettingsHelper.dll
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\VSharpSettingsHelper.pdb
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\bin\Debug\ZSharpLogger.dll
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\obj\Debug\VSharpSettingsHelper.dll
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\obj\Debug\VSharpSettingsHelper.pdb
+R:\GitHub\ZSharpHelpers\VSharpSettingsHelper\obj\Debug\VSharpSettingsHelper.csprojResolveAssemblyReference.cache

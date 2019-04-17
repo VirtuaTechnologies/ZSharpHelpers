@@ -19,3 +19,4 @@ R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQ
 R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\bin\Debug\ZSharpSQLITEHelper.pdb
 R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.dll
 R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.pdb
+R:\GitHub\ZSharpHelpers\ZSharpSQLITEHelper\ZSharpSQLITEHelper\obj\Debug\ZSharpSQLITEHelper.csprojResolveAssemblyReference.cache

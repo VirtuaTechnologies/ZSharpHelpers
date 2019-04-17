@@ -28,3 +28,4 @@ G:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault1
 G:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.pdb
 R:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.dll
 R:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.pdb
+R:\GitHub\ZSharpHelpers\ZSharpVault15lib\ZSharpVault15lib\obj\Debug\ZSharpVault15lib.csprojResolveAssemblyReference.cache

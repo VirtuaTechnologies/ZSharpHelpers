@@ -6,13 +6,45 @@ using System;
 using System.Xml;
 using System.Diagnostics;
 
-namespace ZSharpXMLHelper
+namespace VSharpXMLHelper
 {
     public class xmlParser
     {
         private static string result;
         private static Dictionary<string, string[]> xmlVauleColl = new Dictionary<string, string[]>();
         public static string getXMLValue(string xmlFile, string XMLKey, string attribute, string attVal)
+        {
+            try
+            {
+                using (XmlReader reader = XmlReader.Create(xmlFile))
+                {
+                    while (reader.Read())
+                    {
+                        // Only detect start elements.
+                        if (reader.IsStartElement())
+                        {
+                            if (reader.Name == XMLKey)
+                            {
+                                string att = reader[attribute];
+                                Debug.Write("\n" + result);
+                                if (reader.Read() && att == attVal)
+                                {
+                                    result = reader.Value.Trim();
+                                    Debug.Write("\n  Text node: " + reader.Value.Trim() + "\n");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+            }
+            return result;
+        }
+
+        public static string getXMLDict(string xmlFile, string XMLKey, string attribute, string attVal)
         {
             try
             {
@@ -77,7 +109,7 @@ namespace ZSharpXMLHelper
             return result;
         }
 
-        public static List<string> getXMLVaules(string xmlFile, string XMLKey, string attribute, string attVal)
+        public static List<string> getXMLKeys(string xmlFile, string rootKey)
         {
             List<string> result = new List<string>();
             try
@@ -89,13 +121,43 @@ namespace ZSharpXMLHelper
                         // Only detect start elements.
                         if (reader.IsStartElement())
                         {
-                            if (reader.Name == XMLKey)
+                            if (reader.Name != rootKey)
                             {
-                                string att = reader[attribute];
-                                //Debug.Write("\n" + result);
-                                if (reader.Read() && att == attVal)
+                                if(!result.Contains(reader.Name))
                                 {
-                                    result.Add(reader.Value.Trim());
+                                    result.Add(reader.Name);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+            }
+            return result;
+        }
+        
+        public static Dictionary<int, string> getXMLVaules(string xmlFile, string rootKey, string attribute)
+        {
+            Dictionary<int, string> result = new Dictionary<int, string>();
+            try
+            {
+                using (XmlReader reader = XmlReader.Create(xmlFile))
+                {
+                    while (reader.Read())
+                    {
+                        // Only detect start elements.
+                        if (reader.IsStartElement())
+                        {
+                            if (reader.Name != rootKey)
+                            {
+                                int att = Convert.ToInt32(reader[attribute]);
+                                //Debug.Write("\n" + result);
+                                if (reader.Read())
+                                {
+                                    result.Add(att, reader.Value.Trim());
                                     //result += 1;
                                     //Debug.Write("\n  Text node: " + reader.Value.Trim() + "\n");
                                 }
@@ -109,6 +171,112 @@ namespace ZSharpXMLHelper
                 Debug.Write(ex.ToString());
             }
             return result;
+        }
+
+        public static Dictionary<int, string> getXMLVaulesSpec(string xmlFile, string XMLKey, string attribute)
+        {
+            Dictionary<int, string> result = new Dictionary<int, string>();
+            try
+            {
+                using (XmlReader reader = XmlReader.Create(xmlFile))
+                {
+                    while (reader.Read())
+                    {
+                        // Only detect start elements.
+                        if (reader.IsStartElement())
+                        {
+                            if (reader.Name == XMLKey)
+                            {
+                                int att = Convert.ToInt32(reader[attribute]);
+                                //Debug.Write("\n" + result);
+                                if (reader.Read())
+                                {
+                                    result.Add(att, reader.Value.Trim());
+                                    //result += 1;
+                                    //Debug.Write("\n  Text node: " + reader.Value.Trim() + "\n");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+            }
+            return result;
+        }
+
+        public static Dictionary<string, string> getXMLVaulesStrings(string xmlFile, string XMLKey, string attribute)
+        {
+            Dictionary<string, string> result = new Dictionary<string, string>();
+            try
+            {
+                using (XmlReader reader = XmlReader.Create(xmlFile))
+                {
+                    while (reader.Read())
+                    {
+                        // Only detect start elements.
+                        if (reader.IsStartElement())
+                        {
+                            if (reader.Name == XMLKey)
+                            {
+                                string att = reader[attribute];
+                                //Debug.Write("\n" + result);
+                                if (reader.Read())
+                                {
+                                    if (!result.ContainsKey(att))
+                                    {
+                                        result.Add(att, reader.Value.Trim());
+                                    }
+                                    //result += 1;
+                                    //Debug.Write("\n  Text node: " + reader.Value.Trim() + "\n");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+            }
+            return result;
+        }
+
+        public static Dictionary<int, string> getXMLVaulesDict(string xmlFile, string XMLKey, string attribute, string attVal)
+        {
+            Dictionary<int, string> dict = new Dictionary<int, string>();
+            try
+            {
+                using (XmlReader reader = XmlReader.Create(xmlFile))
+                {
+                    int index = 1;
+                    while (reader.Read())
+                    {
+                        // Only detect start elements.
+                        if (reader.IsStartElement())
+                        {
+                            if (reader.Name == XMLKey)
+                            {
+                                string att = reader[attribute];
+                                //Debug.Write("\n" + result);
+                                if (reader.Read() && att == attVal)
+                                {
+                                    dict.Add(index, reader.Value.Trim());
+                                    index += 1;
+                                    //Debug.Write("\n  Text node: " + reader.Value.Trim() + "\n");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+            }
+            return dict;
         }
 
         public static List<Dictionary<string, string>> getXMLChildVaules(string xmlFile, string XMLKey, string attribute, string attVal)
