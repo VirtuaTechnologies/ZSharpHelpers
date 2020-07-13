@@ -9,6 +9,7 @@ using GV = ZSharpTextHelper.Global.variable;
 using ZSharpQLogger;
 using System.Windows.Forms;
 using ZSharpXMLHelper;
+using VSharpXMLHelper;
 
 namespace ZSharpTextHelper
 {

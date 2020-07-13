@@ -6,6 +6,26 @@ using System;
 using System.Xml;
 using System.Diagnostics;
 
+/*
+ * <App>
+  <STYLE name="IRR">1,5</STYLE>
+  <STYLE name="W">1,4</STYLE>
+  <STYLE name="PV">1</STYLE>
+  <STYLE name="GR">2</STYLE>
+  <STYLE name="RW">3,4</STYLE>
+  <STYLE name="SWR">5</STYLE>
+  <STYLE name="STM">6</STYLE>
+  <STYLE name="STR">2,3</STYLE>
+</App>
+
+    XML Key - App and then STYLE
+    ATT - name
+    result.Add(att, reader.Value.Trim());
+
+    This would add (IRR, 1,5) to the collection.
+
+ */
+
 namespace VSharpXMLHelper
 {
     public class xmlParser
@@ -109,7 +129,49 @@ namespace VSharpXMLHelper
             return result;
         }
 
-        public static List<string> getXMLKeys(string xmlFile, string rootKey)
+
+        public static Dictionary<string, string> getXMLKeyswihtspace(string xmlFile, string rootKey, string XMLspace)
+        {
+            Dictionary<string, string> xmlkeywithspace = new Dictionary<string, string>();
+            try
+            {
+                using (XmlReader reader = XmlReader.Create(xmlFile))
+                {
+                    while (reader.Read())
+                    {
+                        // Only detect start elements.
+                        if (reader.IsStartElement())
+                        {
+                            if (reader.Name != rootKey)
+                            {
+
+                                //check withe keynote spacer
+
+                                if (reader.Name.Contains(XMLspace))
+                                {
+                                    val = reader.Name.Replace(XMLspace, " ");
+                                    if (!xmlkeywithspace.Keys.Contains(val))
+                                    {
+
+                                        xmlkeywithspace.Add(reader.Name, val);
+                                    }
+                                }
+                                
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            catch (SystemException ex)
+            {
+                Debug.Write(ex.ToString());
+            }
+            return xmlkeywithspace;
+        }
+
+        private static string val;
+        public static List<string> getXMLKeys(string xmlFile, string rootKey, string XMLspace)
         {
             List<string> result = new List<string>();
             try
@@ -123,9 +185,21 @@ namespace VSharpXMLHelper
                         {
                             if (reader.Name != rootKey)
                             {
-                                if(!result.Contains(reader.Name))
+
+                                //check withe keynote spacer
+
+                                if (reader.Name.Contains(XMLspace))
                                 {
-                                    result.Add(reader.Name);
+                                    val = reader.Name.Replace(XMLspace, " ");
+                                }
+                                else
+                                {
+                                    val = reader.Name;
+                                }
+                                if (!result.Contains(val))
+                                {
+                                    
+                                    result.Add(val);
                                 }
                             }
                         }
@@ -173,7 +247,7 @@ namespace VSharpXMLHelper
             return result;
         }
 
-        public static Dictionary<int, string> getXMLVaulesSpec(string xmlFile, string XMLKey, string attribute)
+        public static Dictionary<int, string> getXMLVaulesSpec(string xmlFile, string XMLKey, string attribute, Dictionary<string, string> xmlkeywithspace)
         {
             Dictionary<int, string> result = new Dictionary<int, string>();
             try
@@ -185,6 +259,10 @@ namespace VSharpXMLHelper
                         // Only detect start elements.
                         if (reader.IsStartElement())
                         {
+                            if(xmlkeywithspace.ContainsKey(reader.Name))
+                            {
+                                XMLKey = reader.Name;
+                            }
                             if (reader.Name == XMLKey)
                             {
                                 int att = Convert.ToInt32(reader[attribute]);
@@ -388,6 +466,7 @@ namespace VSharpXMLHelper
             //Debug.Write("Count Final: " + result);
             return result;
         }
+
         
     }
 }
